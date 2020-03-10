@@ -2,4 +2,4 @@
 
 Project tracker at PNL
 
-See sample report at [dashboard.html](dashboard.html)
+See sample report at [dashboard.html](https://pnlbwh.github.io/dashboard/dashboard.html)
