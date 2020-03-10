@@ -3,7 +3,7 @@
 import pandas as pd
 from conversion import read_cases
 from configparser import ConfigParser
-from os.path import isfile, isdir, basename, join as pjoin
+from os.path import isfile, isdir, basename, join as pjoin, abspath, dirname
 from os import listdir, stat, getpid
 from time import ctime
 from pwd import getpwuid
@@ -135,12 +135,12 @@ def generateReport(configFile, outputFile):
 
     # raw data
     df = getDetails(config['RAW'], cases)
-    df_html = df.to_html()
+    df_html = df.to_html(index= False)
     writeDataFrame(outputFile, df_html, 'Details of given data')
 
     # derivatives
     df = getDetails(config['DERIVATIVES'], cases)
-    df_html = df.to_html()
+    df_html = df.to_html(index= False)
     writeDataFrame(outputFile, df_html, 'Details of derivatives')
 
 
@@ -167,7 +167,8 @@ def generateReport(configFile, outputFile):
 
 
 if __name__=='__main__':
-    configFile= '/home/tb571/Downloads/INTRuST_BIDS/config.ini'
+
+    configFile= pjoin(dirname(abspath(__file__)), 'config.ini')
     outputFile= '/tmp/dashboard.html'
 
 
