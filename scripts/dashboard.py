@@ -30,33 +30,30 @@ def getFolderSize(folder):
     return total_size
 
 
-def getDetails(section, cases):
+def getDetails(cases, item):
 
     details = pd.DataFrame(columns=['case ID', 'file name', 'user', 'size M', 'date modified'])
     row = 0
-    for key, item in section.items():
+    for id in cases:
+        target = item.replace('id', id)
 
-        for id in cases:
-            target = item.replace('id', id)
+        if isfile(target):
+            stat_obj = stat(target)
+            details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
+                                np.round(stat_obj.st_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
 
-            if isfile(target):
-                stat_obj = stat(target)
-                details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
-                                    np.round(stat_obj.st_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
+        elif isdir(target) and listdir(target):
+            stat_obj = stat(target)
+            total_size = getFolderSize(target)
+            details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
+                                np.round(total_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
 
-            elif isdir(target) and listdir(target):
-                stat_obj = stat(target)
-                total_size = getFolderSize(target)
-                details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
-                                    np.round(total_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
+        else:
+            details.loc[row] = [id, basename(target), '-', '-', '-']
 
-            else:
-                details.loc[row] = [id, basename(target), 'x', 'x', 'x']
-
-            row += 1
-
-        details.loc[row] = ['.'] * 5
         row += 1
+
+    details.loc[row]= ['Total','','',sum([x for x in details['size M'] if x!='-']),'']
 
 
     return details
@@ -83,7 +80,7 @@ def writeDataFrame(html, df, header, mode='a'):
     with open(html, mode) as f:
         message = f"""<html>
         <head></head>
-        <body><p>{header}</p></body>
+        <body><p><b>{header}</b></p></body>
         </html>"""
 
         f.write(message)
@@ -122,27 +119,29 @@ def generateReport(configFile, outputFile):
     # raw data
     df= getSummary(config['RAW'], cases)
     df_html= df.to_html()
-    writeDataFrame(outputFile, df_html, 'Summary of given data','w')
+    writeDataFrame(outputFile, df_html, '# Summary of given data','w')
 
     # derivatives
-    df= getSummary(config['DERIVATIVES'], cases)
+    df= getSummary(config['RAW'], cases)
     df_html= df.to_html()
-    writeDataFrame(outputFile, df_html, 'Summary of derivatives')
-
+    writeDataFrame(outputFile, df_html, '# Summary of derivatives')
 
 
     ## details
 
     # raw data
-    df = getDetails(config['RAW'], cases)
-    df_html = df.to_html(index= False)
-    writeDataFrame(outputFile, df_html, 'Details of given data')
+    writePlainHtml(outputFile, '<br><br><b># Details of given data</b>')
+    for key, item in config['RAW'].items():
+        df = getDetails(cases, item)
+        df_html = df.to_html(index= False)
+        writeDataFrame(outputFile, df_html, f'## Item: {key}')
 
     # derivatives
-    df = getDetails(config['DERIVATIVES'], cases)
-    df_html = df.to_html(index= False)
-    writeDataFrame(outputFile, df_html, 'Details of derivatives')
-
+    writePlainHtml(outputFile, '<br><br><b># Details of derivatives</b>')
+    for key, item in config['DERIVATIVES'].items():
+        df = getDetails(cases, item)
+        df_html = df.to_html(index= False)
+        writeDataFrame(outputFile, df_html, f'## Item: {key}')
 
 
     writePlainHtml(outputFile, '<meta charset="UTF-8">\n<span style="white-space: pre-wrap">\n')
