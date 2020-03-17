@@ -31,9 +31,9 @@ Project dashboard
 
 ## Derivatives
 
-|       | T1w | T2w | dwi |
-|-------|-----|-----|-----|
-| count | 3   | 3   | 2   |
+|       | Xc | Eddy | Ukf |
+|-------|----|------|-----|
+| count | 3  | 3    | 2   |
 
 # Details itemwise
 
