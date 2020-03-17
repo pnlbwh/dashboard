@@ -21,24 +21,29 @@
 ## Given
 
 ### T1w
-[Table](R_produced.html)
+[Table](https://pnlbwh.github.io/dashboard/R_produced.html)
 
 ### T2w
-[Table](R_produced.html)
+[Table](https://pnlbwh.github.io/dashboard/R_produced.html)
+
 
 ### dwi
-[Table](R_produced.html)
+[Table](https://pnlbwh.github.io/dashboard/R_produced.html)
+
 
 ## Derivatives
 
-### T1w
-[Table](R_produced.html)
+### Xc
+[Table](https://pnlbwh.github.io/dashboard/R_produced.html)
 
-### T2w
-[Table](R_produced.html)
 
-### dwi
-[Table](R_produced.html)
+### Eddy
+[Table](https://pnlbwh.github.io/dashboard/R_produced.html)
+
+
+### Ukf
+[Table](https://pnlbwh.github.io/dashboard/R_produced.html)
+
 
 
 # Details casewise
