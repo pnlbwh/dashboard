@@ -1,6 +1,25 @@
 ![](pnl-bwh-hms.png)
 
 
+Project dashboard
+=================
+
+   * [Summary](#summary)
+      * [Given](#given)
+      * [Derivatives](#derivatives)
+   * [Details itemwise](#details-itemwise)
+      * [Given](#given-1)
+         * [T1w](#t1w)
+         * [T2w](#t2w)
+         * [dwi](#dwi)
+      * [Derivatives](#derivatives-1)
+         * [Xc](#xc)
+         * [Eddy](#eddy)
+         * [Ukf](#ukf)
+   * [Details casewise](#details-casewise)
+      * [Given](#given-2)
+      * [Derivatives](#derivatives-2)
+
 
 # Summary
 
