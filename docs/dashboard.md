@@ -44,8 +44,8 @@
 
 
 </details><br><br><details><summary>003GNX021</summary>
-<p>
 <span style="white-space: pre-wrap">
+<p>
 /home/tb571/Downloads/INTRuST_BIDS/derivatives/luigi-pnlpipe/sub-003GNX021/
 ├── anat
 │   ├── freesurfer
@@ -91,6 +91,6 @@
 
 15 directories, 26 files
 
-</span>
 </p>
+</span>
 </details>
