@@ -45,6 +45,7 @@
 
 <details><summary>003GNX021</summary>
 <p>
+
 ```
 /home/tb571/Downloads/INTRuST_BIDS/derivatives/luigi-pnlpipe/sub-003GNX021/
 ├── anat
@@ -91,6 +92,7 @@
 
 15 directories, 26 files
 ```
+
 </p>
 </span>
 </details>
