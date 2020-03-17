@@ -43,10 +43,9 @@
 ### dwi
 
 
-```html
-<span style="white-space: pre-wrap">
 </details><br><br><details><summary>003GNX021</summary>
 <p>
+<span style="white-space: pre-wrap">
 /home/tb571/Downloads/INTRuST_BIDS/derivatives/luigi-pnlpipe/sub-003GNX021/
 ├── anat
 │   ├── freesurfer
@@ -91,7 +90,7 @@
 └── tracts
 
 15 directories, 26 files
+
+</span>
 </p>
 </details>
-</span>
-```
