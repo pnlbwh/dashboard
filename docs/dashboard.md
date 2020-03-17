@@ -6,26 +6,39 @@
 
 ## Given
 
+|       | T1w | T2w | dwi |
+|-------|-----|-----|-----|
+| count | 3   | 3   | 2   |
+
 ## Derivatives
 
-
-
+|       | T1w | T2w | dwi |
+|-------|-----|-----|-----|
+| count | 3   | 3   | 2   |
 
 # Details itemwise
 
 ## Given
 
 ### T1w
+[Table](R_produced.html)
+
 ### T2w
+[Table](R_produced.html)
+
 ### dwi
+[Table](R_produced.html)
 
 ## Derivatives
 
 ### T1w
+[Table](R_produced.html)
+
 ### T2w
+[Table](R_produced.html)
+
 ### dwi
-
-
+[Table](R_produced.html)
 
 
 # Details casewise
