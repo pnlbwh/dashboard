@@ -43,7 +43,7 @@
 ### dwi
 
 
-</details><br><br><details><summary>003GNX021</summary>
+<details><summary>003GNX021</summary>
 <span style="white-space: pre-wrap">
 <p>
 /home/tb571/Downloads/INTRuST_BIDS/derivatives/luigi-pnlpipe/sub-003GNX021/
