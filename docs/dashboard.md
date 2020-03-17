@@ -42,7 +42,8 @@
 ### T2w
 ### dwi
 
-        
+
+<span style="white-space: pre-wrap">
 </details><br><br><details><summary>003GNX021</summary>
 <p>
 /home/tb571/Downloads/INTRuST_BIDS/derivatives/luigi-pnlpipe/sub-003GNX021/
@@ -92,4 +93,4 @@
 
 </p>
 </details>
-
+</span>
