@@ -42,10 +42,10 @@
 ### T2w
 ### dwi
 
-        </p>
-        </details><br><br><details><summary>003GNX021</summary>
-        <p>
-        /home/tb571/Downloads/INTRuST_BIDS/derivatives/luigi-pnlpipe/sub-003GNX021/
+        
+</details><br><br><details><summary>003GNX021</summary>
+<p>
+/home/tb571/Downloads/INTRuST_BIDS/derivatives/luigi-pnlpipe/sub-003GNX021/
 ├── anat
 │   ├── freesurfer
 │   │   ├── label
@@ -90,6 +90,6 @@
 
 15 directories, 26 files
 
-        </p>
-        </details></span>
+</p>
+</details>
 
