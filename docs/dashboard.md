@@ -69,7 +69,7 @@ Project dashboard
 
 ## Given
 
-<details><summary>003GNX012</summary>
+<details><summary>003GNX007</summary>
 <p>
 
 ```
@@ -123,7 +123,7 @@ Project dashboard
 </details>
 
 
-<details><summary>003GNX007</summary>
+<details><summary>003GNX012</summary>
 <p>
 
 ```
