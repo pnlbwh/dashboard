@@ -16,6 +16,11 @@ KB= 1e3
 MB= 1e6
 GB= 1e9
 
+# header importance
+primary= 2
+secondary= 3
+tertiary= 4
+
 
 def getFolderSize(folder):
 
@@ -82,8 +87,9 @@ def getSummary(section, cases):
     return summary
 
 
-def generateReport(configFile, tocFile, statFile, treeFile, serial):
+def generateReport(configFile, tocFile, statFile, treeFile):
     
+   
     # TODO
     directory= dirname(statFile)
     
@@ -97,19 +103,21 @@ def generateReport(configFile, tocFile, statFile, treeFile, serial):
 
     # raw data
     df= getSummary(config['RAW'], cases)
+    df.index+= 1
     df_html= df.to_html()
     header= 'Summary of given data'
     writeTableOfContents(tocFile, header)
-    serial= writeHeader(statFile, serial, header)
+    writeHeader(statFile, primary, header)
     writePlainHtml(statFile, df_html)
     
 
     # derivatives
     df= getSummary(config['DERIVATIVES'], cases)
+    df.index+= 1
     df_html= df.to_html()
     header= 'Summary of derivatives'
     writeTableOfContents(tocFile, header)
-    serial= writeHeader(statFile, serial, header)
+    writeHeader(statFile, primary, header)
     writePlainHtml(statFile, df_html)
     
 
@@ -119,8 +127,7 @@ def generateReport(configFile, tocFile, statFile, treeFile, serial):
     # raw data
     header= 'Details of given data'
     writeTableOfContents(tocFile, header)
-    serial= writeHeader(statFile, serial, header)
-    # writePlainHtml(statFile, '<br><br><b># Details of given data</b>')
+    writeHeader(statFile, primary, header)
     writePlainHtml(tocFile, '<p><ul>')
     for key, item in config['RAW'].items():
         df = getDetails(cases, item)
@@ -132,7 +139,7 @@ def generateReport(configFile, tocFile, statFile, treeFile, serial):
         p.wait()
         
         writeTableOfContents(tocFile, header)
-        serial= writeHeader(statFile, serial, header) # f'## Item: {key}')
+        writeHeader(statFile, secondary, header) # f'## Item: {key}')
         writeCsvLink(statFile, csvFile)
     writePlainHtml(tocFile, '</p></ul>')
     
@@ -140,8 +147,7 @@ def generateReport(configFile, tocFile, statFile, treeFile, serial):
     # derivatives
     header= 'Details of derivatives'
     writeTableOfContents(tocFile, header)
-    serial= writeHeader(statFile, serial, header)
-    # writePlainHtml(statFile, '<br><br><b># Details of derivatives</b>')
+    writeHeader(statFile, primary, header)
     writePlainHtml(tocFile, '<p><ul>')
     for key, item in config['DERIVATIVES'].items():
         df = getDetails(cases, item)
@@ -153,25 +159,20 @@ def generateReport(configFile, tocFile, statFile, treeFile, serial):
         p.wait()
         
         writeTableOfContents(tocFile, header)
-        serial= writeHeader(statFile, serial, header) # f'## Item: {key}')
+        writeHeader(statFile, secondary, header) # f'## Item: {key}')
         writeCsvLink(statFile, csvFile)
     writePlainHtml(tocFile, '</p></ul>')
 
     
     header= 'Subject directory tree'
     writeTableOfContents(tocFile, header)
-    serial= writeHeader(statFile, serial, header)
+    writeHeader(statFile, primary, header)
     writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}">See trees</a></p>""")
     derivDir= config['DIR']['derivDir']
     for id in cases:
         subDir= derivDir.replace('id', id)
-        # tempFile= f'/tmp/tree-{getpid()}.txt'
-        # tree= check_output(f'tree {subDir} -L 3 > {tempFile}', shell=True)
         tree= check_output(f'tree {subDir} -L 3', shell=True)
-
-        # with open(treeFile) as f:
-            # tree= f.read()
-
+        
         writePopDown(treeFile, id, tree.decode('UTF-8'))
 
 
@@ -184,6 +185,7 @@ def writeDataFrame(html, df, header, mode='a'):
         """
 
         f.write(message)
+        df.index+= 1
         f.write(df)
 
 
@@ -222,10 +224,8 @@ def writeHeader(html, serial, header, mode='a'):
 <p><h{serial} id={ref}><b># {header}</b></h{serial}></p>"""
 
         f.write(message)
+
         
-    serial+=1
-    
-    return serial
         
 
 def writeTableOfContents(html, header, mode='a'):
@@ -251,17 +251,18 @@ if __name__=='__main__':
     
     
     # initialize tocFile
-    text="""<!DOCTYPE html>
+    text=f"""<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8" />
+<font size="+1">
 <title>dashboard</title>
 </head>
 <body>
-<p><img src="pnl-bwh-hms.png" /></p>
-<p>A lightweight dashboard for monitoring project progress</p>
+<p><img src="https://raw.githubusercontent.com/pnlbwh/dashboard/master/docs/pnl-bwh-hms.png" /></p>
+<p><a href=https://github.com/pnlbwh/dashboard>https://github.com/pnlbwh/dashboard</a>is a lightweight dashboard for monitoring project progress</p>
 <p>Developed by Tashrif Billah and Sylvain Bouix, Brigham and Women's Hospital (Harvard Medical School)</p>
-<p>Table of Contents</p>
+<p><h{primary} <b>Table of Contents</b></h1></p>
 <p><ul>"""
     writePlainHtml(tocFile, text, 'w')
     
@@ -280,23 +281,22 @@ if __name__=='__main__':
 <span style="white-space: pre-wrap">"""
     writePlainHtml(treeFile, text, 'w')
     
-    serial= 1
-    
+        
     header= 'Dashboard configuration'
     writeTableOfContents(tocFile, header)
     with open(dashConfigFile) as f:
-        serial= writeHeader(statFile, serial, header)
+        writeHeader(statFile, primary, header)
         writePlainHtml(statFile, f'<p>{f.read()}</p>')
     
     
     header= 'Pipeline configuration'
     writeTableOfContents(tocFile, header)
     with open(pipeConfigFile) as f:
-        serial= writeHeader(statFile, serial, header)
+        writeHeader(statFile, primary, header)
         writePlainHtml(statFile, f'<p>{f.read()}</p>')
     
     
-    generateReport(dashConfigFile, tocFile, statFile, treeFile, serial)
+    generateReport(dashConfigFile, tocFile, statFile, treeFile)
 
     
     writePlainHtml(tocFile, '</p></ul>')
@@ -308,7 +308,7 @@ if __name__=='__main__':
         stat= f.read()
     with open(outputFile, 'w') as f:
         f.write(toc+stat)
-        f.write('</html>')
+        f.write('</font></html>')
     
     
     
