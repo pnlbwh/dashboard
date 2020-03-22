@@ -136,10 +136,10 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         csvHtml= pjoin(directory, f'{header}.html')
         df.to_csv(csvFile)
         p= Popen(' '.join([pjoin(SCRIPTDIR, 'generateTable.R'), csvFile, csvHtml]), shell= True)
-        p.wait()
+        p.wait()        
         
-        writeTableOfContents(tocFile, header)
-        writeHeader(statFile, secondary, header) # f'## Item: {key}')
+        writeTableOfContents(tocFile, header, key)
+        writeHeader(statFile, secondary, header, f'# Item: {key}')
         writeCsvLink(statFile, csvFile)
     writePlainHtml(tocFile, '</p></ul>')
     
@@ -156,10 +156,10 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         csvHtml= pjoin(directory, f'{header}.html')
         df.to_csv(csvFile)
         p= Popen(' '.join([pjoin(SCRIPTDIR, 'generateTable.R'), csvFile, csvHtml]), shell= True)
-        p.wait()
+        p.wait()        
         
-        writeTableOfContents(tocFile, header)
-        writeHeader(statFile, secondary, header) # f'## Item: {key}')
+        writeTableOfContents(tocFile, header, key)
+        writeHeader(statFile, secondary, header, f'# Item: {key}')
         writeCsvLink(statFile, csvFile)
     writePlainHtml(tocFile, '</p></ul>')
 
@@ -216,24 +216,30 @@ def writeCsvLink(html, csvName, mode='a'):
         f.write(message)
 
     
-def writeHeader(html, serial, header, mode='a'):
-
+def writeHeader(html, serial, header, desc=None, mode='a'):
+    
+    if desc is None:
+        desc= header
+    
     with open(html, mode) as f:
         ref= ('-').join(header.lower().split())
         message = f"""
-<p><h{serial} id={ref}><b># {header}</b></h{serial}></p>"""
+<p><h{serial} id={ref}><b># {desc}</b></h{serial}></p>"""
 
         f.write(message)
 
         
         
 
-def writeTableOfContents(html, header, mode='a'):
-
+def writeTableOfContents(html, header, desc=None, mode='a'):
+    
+    if desc is None:
+        desc= header
+        
     with open(html, mode) as f:
         ref= ('-').join(header.lower().split())
         message = f"""
-<li><a href=#{ref}><b>{header}</b></a></li>"""
+<li><a href=#{ref}><b>{desc}</b></a></li>"""
 
         f.write(message)
 
