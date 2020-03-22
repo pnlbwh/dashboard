@@ -4,11 +4,13 @@ import pandas as pd
 from conversion import read_cases
 from configparser import ConfigParser
 from os.path import isfile, isdir, basename, join as pjoin, abspath, dirname
-from os import listdir, stat, getpid
+from os import listdir, stat, getpid, getcwd, makedirs
+from shutil import rmtree
 from time import ctime
 from pwd import getpwuid
 from subprocess import Popen, check_call, check_output
 import numpy as np
+import argparse
 
 SCRIPTDIR= dirname(abspath(__file__))
 
@@ -246,14 +248,35 @@ def writeTableOfContents(html, header, desc=None, mode='a'):
 
     
 if __name__=='__main__':
-
-    dashConfigFile= pjoin(dirname(abspath(__file__)), 'config.ini')
-    pipeConfigFile= '/home/tb571/luigi-pnlpipe/params/struct_pipe_params.cfg'
-    outputFile= '/tmp/dashboard.html'
     
-    tocFile= '/tmp/toc.html'
-    statFile= '/tmp/stat.html'
-    treeFile= '/tmp/tree.html'
+    CWD= getcwd()
+    
+    parser = argparse.ArgumentParser(description='A lightweight dashboard for monitoring project progress \nSee details at https://github.com/pnlbwh/dashboard',
+        formatter_class=argparse.RawTextHelpFormatter)
+
+    parser.add_argument('outDir', type= str, default= f'report-PID', nargs='?',
+        help= 'output directory for report files, default PWD/%(default)s')
+    parser.add_argument('--dash-config', type= str, default= 'dash_config.ini',
+        help= 'config file for generating dashboard, default PWD/%(default)s')
+    parser.add_argument('--pipe-config', type= str,
+        help= 'optional, config file for the pipeline \nSee examples at https://github.com/pnlbwh/luigi-pnlpipe/tree/master/params')
+        
+    args = parser.parse_args()        
+        
+    dashConfigFile= abspath(args.dash_config)
+    if not isfile(dashConfigFile):
+        raise FileNotFoundError(f'{dashConfigFile} could not be found, provide a valid --dash-config')
+    pipeConfigFile= abspath(args.pipe_config) if args.pipe_config else None
+    outDir= abspath(args.outDir.replace('PID', str(getpid())))
+    
+    if isdir(outDir):
+        rmtree(outDir)
+    makedirs(outDir)
+    
+    outputFile= pjoin(outDir,'dashboard.html')
+    tocFile= pjoin(outDir,'toc.html')
+    statFile= pjoin(outDir,'stat.html')
+    treeFile= pjoin(outDir,'tree.html')
     
     
     # initialize tocFile
@@ -266,8 +289,9 @@ if __name__=='__main__':
 </head>
 <body>
 <p><img src="https://raw.githubusercontent.com/pnlbwh/dashboard/master/docs/pnl-bwh-hms.png" /></p>
-<p><a href=https://github.com/pnlbwh/dashboard>https://github.com/pnlbwh/dashboard</a>is a lightweight dashboard for monitoring project progress</p>
+<p><a href=https://github.com/pnlbwh/dashboard>https://github.com/pnlbwh/dashboard</a> is a lightweight dashboard for monitoring project progress</p>
 <p>Developed by Tashrif Billah and Sylvain Bouix, Brigham and Women's Hospital (Harvard Medical School)</p>
+<p><b>This report was generated on {ctime()}</p></br>
 <p><h{primary} <b>Table of Contents</b></h1></p>
 <p><ul>"""
     writePlainHtml(tocFile, text, 'w')
@@ -295,11 +319,12 @@ if __name__=='__main__':
         writePlainHtml(statFile, f'<p>{f.read()}</p>')
     
     
-    header= 'Pipeline configuration'
-    writeTableOfContents(tocFile, header)
-    with open(pipeConfigFile) as f:
-        writeHeader(statFile, primary, header)
-        writePlainHtml(statFile, f'<p>{f.read()}</p>')
+    if pipeConfigFile:
+        header= 'Pipeline configuration'
+        writeTableOfContents(tocFile, header)
+        with open(pipeConfigFile) as f:
+            writeHeader(statFile, primary, header)
+            writePlainHtml(statFile, f'<p>{f.read()}</p>')
     
     
     generateReport(dashConfigFile, tocFile, statFile, treeFile)
