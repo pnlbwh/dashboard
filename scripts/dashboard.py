@@ -188,18 +188,6 @@ def modify_df_title(csvHtml, header):
     check_output(cmd, shell=True)
     
     
-def writeDataFrame(html, df, header, mode='a'):
-
-    with open(html, mode) as f:
-        message = f"""
-        <p><b>{header}</b></p>
-        """
-
-        f.write(message)
-        df.index+= 1
-        f.write(df)
-
-
 def writePopDown(html, caseid, text, mode='a'):
 
     with open(html, mode) as f:
@@ -222,7 +210,7 @@ def writeCsvLink(html, csvFile, csvHtml, mode='a'):
 
     with open(html, mode) as f:
         message = f"""
-<p><a href="file:///{csvHtml}">{basename(csvFile)}</a></p>"""
+<a href="file:///{csvHtml}">{basename(csvFile)}</a>"""
 
         f.write(message)
 
@@ -232,10 +220,12 @@ def writeHeader(html, serial, header, desc=None, mode='a'):
     if desc is None:
         desc= header
     
+    margin_bottom= """style="margin-bottom: -10px""" if serial >= secondary else ''
+    
     with open(html, mode) as f:
         ref= ('-').join(header.lower().split())
         message = f"""
-<p><h{serial} id={ref}><b># {desc}</b></h{serial}></p>"""
+<h{serial} id={ref} {margin_bottom}"><b># {desc}</b></h{serial}>"""
 
         f.write(message)
 
