@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<font size="+1">
+<title>dashboard</title>
+</head>
+<body>
+<p><img src="https://raw.githubusercontent.com/pnlbwh/dashboard/master/docs/pnl-bwh-hms.png" /></p>
+<p><a href=https://github.com/pnlbwh/dashboard>https://github.com/pnlbwh/dashboard</a> is a lightweight dashboard for monitoring project progress</p>
+<p>Developed by Tashrif Billah and Sylvain Bouix, Brigham and Women's Hospital (Harvard Medical School)</p>
+<br>
+<p><b>* This report was generated on Mon Mar 23 17:04:31 2020</p></br>
+<p><h2 <b>Table of Contents</b></h1></p>
+<p><ul>
+<li><a href=#Dashboard-configuration><b>Dashboard configuration</b></a></li>
+<li><a href=#Pipeline-configuration><b>Pipeline configuration</b></a></li>
+<li><a href=#Summary-of-given-data><b>Summary of given data</b></a></li>
+<li><a href=#Summary-of-derivatives><b>Summary of derivatives</b></a></li>
+<li><a href=#Details-of-given-data><b>Details of given data</b></a></li><p><ul>
+<li><a href=#given-T1w-details><b>T1w</b></a></li>
+<li><a href=#given-T2w-details><b>T2w</b></a></li>
+<li><a href=#given-dwi-details><b>dwi</b></a></li></p></ul>
+<li><a href=#Details-of-derivatives><b>Details of derivatives</b></a></li><p><ul>
+<li><a href=#derived-T1wXc-details><b>T1wXc</b></a></li>
+<li><a href=#derived-T1wXcMask-details><b>T1wXcMask</b></a></li>
+<li><a href=#derived-T2wXc-details><b>T2wXc</b></a></li>
+<li><a href=#derived-T2wXcMask-details><b>T2wXcMask</b></a></li>
+<li><a href=#derived-T2wXcMaskQc-details><b>T2wXcMaskQc</b></a></li>
+<li><a href=#derived-Fs-details><b>Fs</b></a></li>
+<li><a href=#derived-dwiXc-details><b>dwiXc</b></a></li>
+<li><a href=#derived-dwiMask-details><b>dwiMask</b></a></li>
+<li><a href=#derived-Eddy-details><b>Eddy</b></a></li></p></ul>
+<li><a href=#Subject-directory-trees><b>Subject directory trees</b></a></li><p><ul>
+<li><a href=#Raw-data-trees><b>Raw data trees</b></a></li>
+<li><a href=#Derived-data-trees><b>Derived data trees</b></a></li></p></ul></p></ul>
+<meta charset="utf-8" />
+<span style="white-space: pre-wrap">
+<h2 id=Dashboard-configuration "><b># Dashboard configuration</b></h2><p>[DIR]
+rootDir: /data/pnl/DIAGNOSE_CTE_U01/
+givenDir: /data/pnl/DIAGNOSE_CTE_U01/rawdata/sub-$/ses-01/
+derivDir: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/
+
+[CASELIST]
+caselist: /data/pnl/DIAGNOSE_CTE_U01/Caselist_ALL.txt
+
+[RAW]
+T1w: /data/pnl/DIAGNOSE_CTE_U01/rawdata/sub-$/ses-01/anat/sub-$_ses-01_T1w.nii.gz
+T2w: /data/pnl/DIAGNOSE_CTE_U01/rawdata/sub-$/ses-01/anat/sub-$_ses-01_T2w.nii.gz
+dwi: /data/pnl/DIAGNOSE_CTE_U01/rawdata/sub-$/ses-01/dwi/sub-$_ses-01_dwi.nii.gz
+
+[DERIVATIVES]
+T1wXc: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/anat/sub-$_ses-01_desc-Xc_T1w.nii.gz
+T1wXcMask: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/anat/sub-$_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz
+
+T2wXc: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/anat/sub-$_ses-01_desc-Xc_T2w.nii.gz
+T2wXcMask: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/anat/sub-$_ses-01_desc-T2wXcMabs_mask.nii.gz
+T2wXcMaskQc: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/anat/sub-$_ses-01_desc-T2wXcMabsQc_mask.nii.gz
+
+Fs: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/anat/freesurfer
+
+dwiXc: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/dwi/sub-$_ses-01_desc-Xc_dwi.nii.gz
+dwiMask: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/dwi/sub-$_ses-01_desc-dwiXc_mask.nii.gz
+Eddy: /data/pnl/DIAGNOSE_CTE_U01/derivatives/pnlpipe/sub-$/ses-01/dwi/sub-$_ses-01_desc-XcEd_dwi.nii.gz
+
+[TREE]
+level: 3
+
+</p>
+<h2 id=Pipeline-configuration "><b># Pipeline configuration</b></h2><p>[DEFAULT]
+mabs_mask_nproc: 8
+fusion:
+debug: False
+reg_method: rigid
+slicer_exec:
+mask_qc: False
+
+
+[StructMask]
+csvFile:
+model_img:
+model_mask:
+
+
+[Freesurfer]
+t1_csvFile: 
+t1_ref_img: *_desc-Xc_T2w.nii.gz
+t1_ref_mask: *_desc-T2wXcMabsQc_mask.nii.gz
+# t1_mask_qc: False
+
+t2_csvFile:
+t2_ref_img:
+t2_ref_mask:
+# t2_mask_qc: True
+
+freesurfer_nproc: 4
+expert_file:
+no_hires: True
+no_skullstrip: False
+# fsWithT2: False
+
+</p>
+<h2 id=Summary-of-given-data "><b># Summary of given data</b></h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>item</th>
+      <th>exists
+(out of 250)</th>
+      <th>total size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>T1w</td>
+      <td>241</td>
+      <td>3.4G</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>T2w</td>
+      <td>242</td>
+      <td>2.8G</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>dwi</td>
+      <td>233</td>
+      <td>23G</td>
+    </tr>
+  </tbody>
+</table>
+<h2 id=Summary-of-derivatives "><b># Summary of derivatives</b></h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>item</th>
+      <th>exists
+(out of 250)</th>
+      <th>total size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>T1wXc</td>
+      <td>241</td>
+      <td>3.5G</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>T1wXcMask</td>
+      <td>92</td>
+      <td>36M</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>T2wXc</td>
+      <td>242</td>
+      <td>3.0G</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>T2wXcMask</td>
+      <td>241</td>
+      <td>83M</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>T2wXcMaskQc</td>
+      <td>222</td>
+      <td>56M</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Fs</td>
+      <td>95</td>
+      <td>34G</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>dwiXc</td>
+      <td>232</td>
+      <td>23G</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>dwiMask</td>
+      <td>20</td>
+      <td>2.9M</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Eddy</td>
+      <td>19</td>
+      <td>6.8G</td>
+    </tr>
+  </tbody>
+</table>
+<h2 id=Details-of-given-data "><b># Details of given data</b></h2>
+<h3 id=given-T1w-details style="margin-bottom: -10px"><b># # Item: T1w</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/given-T1w-details.html">given-T1w-details.csv</a>
+<h3 id=given-T2w-details style="margin-bottom: -10px"><b># # Item: T2w</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/given-T2w-details.html">given-T2w-details.csv</a>
+<h3 id=given-dwi-details style="margin-bottom: -10px"><b># # Item: dwi</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/given-dwi-details.html">given-dwi-details.csv</a>
+<h2 id=Details-of-derivatives "><b># Details of derivatives</b></h2>
+<h3 id=derived-T1wXc-details style="margin-bottom: -10px"><b># # Item: T1wXc</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-T1wXc-details.html">derived-T1wXc-details.csv</a>
+<h3 id=derived-T1wXcMask-details style="margin-bottom: -10px"><b># # Item: T1wXcMask</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-T1wXcMask-details.html">derived-T1wXcMask-details.csv</a>
+<h3 id=derived-T2wXc-details style="margin-bottom: -10px"><b># # Item: T2wXc</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-T2wXc-details.html">derived-T2wXc-details.csv</a>
+<h3 id=derived-T2wXcMask-details style="margin-bottom: -10px"><b># # Item: T2wXcMask</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-T2wXcMask-details.html">derived-T2wXcMask-details.csv</a>
+<h3 id=derived-T2wXcMaskQc-details style="margin-bottom: -10px"><b># # Item: T2wXcMaskQc</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-T2wXcMaskQc-details.html">derived-T2wXcMaskQc-details.csv</a>
+<h3 id=derived-Fs-details style="margin-bottom: -10px"><b># # Item: Fs</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-Fs-details.html">derived-Fs-details.csv</a>
+<h3 id=derived-dwiXc-details style="margin-bottom: -10px"><b># # Item: dwiXc</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-dwiXc-details.html">derived-dwiXc-details.csv</a>
+<h3 id=derived-dwiMask-details style="margin-bottom: -10px"><b># # Item: dwiMask</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-dwiMask-details.html">derived-dwiMask-details.csv</a>
+<h3 id=derived-Eddy-details style="margin-bottom: -10px"><b># # Item: Eddy</b></h3>
+<a href="https://pnlbwh.github.io/dashboard/report/derived-Eddy-details.html">derived-Eddy-details.csv</a>
+<h2 id=Subject-directory-trees "><b># Subject directory trees</b></h2>
+<h3 id=Raw-data-trees style="margin-bottom: -10px"><b># Raw data trees</b></h3><p><a href="https://pnlbwh.github.io/dashboard/report/tree.html#raw-data-trees">See trees</a></p>
+<h3 id=Derived-data-trees style="margin-bottom: -10px"><b># Derived data trees</b></h3><p><a href="https://pnlbwh.github.io/dashboard/report/tree.html#derived-data-trees">See trees</a></p></font></html>
