@@ -136,13 +136,14 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         header= f'given-{key}-details'
         csvFile= pjoin(directory, f'{header}.csv')
         csvHtml= pjoin(directory, f'{header}.html')
-        df.to_csv(csvFile)
+        df.to_csv(csvFile, index= False)
         p= Popen(' '.join([pjoin(SCRIPTDIR, 'generateTable.R'), csvFile, csvHtml]), shell= True)
         p.wait()        
         
+        modify_df_title(csvHtml, header)
         writeTableOfContents(tocFile, header, key)
         writeHeader(statFile, secondary, header, f'# Item: {key}')
-        writeCsvLink(statFile, csvFile)
+        writeCsvLink(statFile, csvFile, csvHtml)
     writePlainHtml(tocFile, '</p></ul>')
     
     
@@ -156,13 +157,14 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         header= f'derived-{key}-details'
         csvFile= pjoin(directory, f'{header}.csv')
         csvHtml= pjoin(directory, f'{header}.html')
-        df.to_csv(csvFile)
+        df.to_csv(csvFile, index= False)
         p= Popen(' '.join([pjoin(SCRIPTDIR, 'generateTable.R'), csvFile, csvHtml]), shell= True)
         p.wait()        
         
+        modify_df_title(csvHtml, header)
         writeTableOfContents(tocFile, header, key)
         writeHeader(statFile, secondary, header, f'# Item: {key}')
-        writeCsvLink(statFile, csvFile)
+        writeCsvLink(statFile, csvFile, csvHtml)
     writePlainHtml(tocFile, '</p></ul>')
 
     
@@ -171,14 +173,21 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     writeHeader(statFile, primary, header)
     writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}">See trees</a></p>""")
     derivDir= config['DIR']['derivDir']
+    depth= config['TREE']['level']
     for id in cases:
         subDir= derivDir.replace('id', id)
-        tree= check_output(f'tree {subDir} -L 3', shell=True)
+        tree= check_output(f'tree {subDir} -L {depth}', shell=True)
         
         writePopDown(treeFile, id, tree.decode('UTF-8'))
 
 
-
+        
+def modify_df_title(csvHtml, header):
+    
+    cmd= f"sed -i \"s+<title>datatables</title>+<title>{header}</title>+g\" {csvHtml}"
+    check_output(cmd, shell=True)
+    
+    
 def writeDataFrame(html, df, header, mode='a'):
 
     with open(html, mode) as f:
@@ -209,11 +218,11 @@ def writePlainHtml(html, text, mode= 'a'):
         f.write(text)
     
 
-def writeCsvLink(html, csvName, mode='a'):
+def writeCsvLink(html, csvFile, csvHtml, mode='a'):
 
     with open(html, mode) as f:
         message = f"""
-<p><a href="file:///{csvName}.html">{basename(csvName)}</a></p>"""
+<p><a href="file:///{csvHtml}">{basename(csvFile)}</a></p>"""
 
         f.write(message)
 
@@ -291,7 +300,8 @@ if __name__=='__main__':
 <p><img src="https://raw.githubusercontent.com/pnlbwh/dashboard/master/docs/pnl-bwh-hms.png" /></p>
 <p><a href=https://github.com/pnlbwh/dashboard>https://github.com/pnlbwh/dashboard</a> is a lightweight dashboard for monitoring project progress</p>
 <p>Developed by Tashrif Billah and Sylvain Bouix, Brigham and Women's Hospital (Harvard Medical School)</p>
-<p><b>This report was generated on {ctime()}</p></br>
+<br>
+<p><b>* This report was generated on {ctime()}</p></br>
 <p><h{primary} <b>Table of Contents</b></h1></p>
 <p><ul>"""
     writePlainHtml(tocFile, text, 'w')
@@ -306,7 +316,8 @@ if __name__=='__main__':
     
     # initialize treeFile
     text="""<!DOCTYPE html>
-<html> 
+<html>
+<title>Directory trees</title>
 <meta charset="utf-8" />
 <span style="white-space: pre-wrap">"""
     writePlainHtml(treeFile, text, 'w')
@@ -340,6 +351,5 @@ if __name__=='__main__':
     with open(outputFile, 'w') as f:
         f.write(toc+stat)
         f.write('</font></html>')
-    
     
     
