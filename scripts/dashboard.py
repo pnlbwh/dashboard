@@ -168,18 +168,39 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     writePlainHtml(tocFile, '</p></ul>')
 
     
-    header= 'Subject directory tree'
+    header= 'Subject directory trees'
     writeTableOfContents(tocFile, header)
     writeHeader(statFile, primary, header)
-    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}">See trees</a></p>""")
-    derivDir= config['DIR']['derivDir']
     depth= config['TREE']['level']
+    writePlainHtml(tocFile, '<p><ul>')
+    
+    # given
+    header= 'Raw data trees'
+    writeTableOfContents(tocFile, header)
+    writeHeader(statFile, secondary, header)
+    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#raw-data-trees">See trees</a></p>""")
+    writeHeader(treeFile, secondary, header)
+    givenDir= config['DIR']['givenDir']
+    for id in cases:
+        subDir= givenDir.replace('$', id)
+        tree= check_output(f'tree {subDir} -L {depth}', shell=True)
+        
+        writePopDown(treeFile, id, tree.decode('UTF-8'))
+    
+    
+    # derivatives
+    header= 'Derived data trees'
+    writeTableOfContents(tocFile, header)
+    writeHeader(statFile, secondary, header)
+    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#derived-data-trees">See trees</a></p>""")
+    writeHeader(treeFile, secondary, header)
+    derivDir= config['DIR']['derivDir']
     for id in cases:
         subDir= derivDir.replace('$', id)
         tree= check_output(f'tree {subDir} -L {depth}', shell=True)
         
         writePopDown(treeFile, id, tree.decode('UTF-8'))
-
+    writePlainHtml(tocFile, '</p></ul>')
 
         
 def modify_df_title(csvHtml, header):
