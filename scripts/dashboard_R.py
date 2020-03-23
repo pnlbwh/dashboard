@@ -41,10 +41,10 @@ def getFolderSize(folder):
 
 def getDetails(cases, item):
 
-    details = pd.DataFrame(columns=['case ID', 'file/directory name', 'created by', 'size M', 'date modified'])
+    details = pd.DataFrame(columns=['caseid', 'attribute_name', 'created_by', 'size_M', 'date_modified'])
     row = 0
     for id in cases:
-        target = item.replace('id', id)
+        target = item.replace('$', id)
 
         if isfile(target):
             stat_obj = stat(target)
@@ -62,7 +62,7 @@ def getDetails(cases, item):
 
         row += 1
 
-    details.loc[row]= ['Total','','',sum([x for x in details['size M'] if x!='-']),'']
+    details.loc[row]= ['Total','','',sum([x for x in details['size_M'] if x!='-']),'']
 
 
     return details
@@ -76,11 +76,11 @@ def getSummary(section, cases):
 
         count = 0
         for id in cases:
-            target = item.replace('id', id)
+            target = item.replace('$', id)
             if isfile(target) or (isdir(target) and listdir(target)):
                 count += 1
         
-        size= check_output('du -csh {} | grep total'.format(item.replace('id','*')), shell= True).decode('UTF-8').split()[0]
+        size= check_output('du -csh {} | grep total'.format(item.replace('$','*')), shell= True).decode('UTF-8').split()[0]
         summary.loc[row]= [key, count, size]
         
         row += 1
@@ -175,7 +175,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     derivDir= config['DIR']['derivDir']
     depth= config['TREE']['level']
     for id in cases:
-        subDir= derivDir.replace('id', id)
+        subDir= derivDir.replace('$', id)
         tree= check_output(f'tree {subDir} -L {depth}', shell=True)
         
         writePopDown(treeFile, id, tree.decode('UTF-8'))
