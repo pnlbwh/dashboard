@@ -90,12 +90,11 @@ def getSummary(section, cases):
 
 
 def generateReport(configFile, tocFile, statFile, treeFile):
-    
-   
-    # TODO
+      
     directory= dirname(statFile)
     
     config= ConfigParser()
+    config.optionxform= str
     config.read(configFile)
 
     cases= read_cases(config['CASELIST']['caselist'])
@@ -244,7 +243,7 @@ def writeHeader(html, serial, header, desc=None, mode='a'):
     margin_bottom= """style="margin-bottom: -10px""" if serial >= secondary else ''
     
     with open(html, mode) as f:
-        ref= ('-').join(header.lower().split())
+        ref= ('-').join(header.split())
         message = f"""
 <h{serial} id={ref} {margin_bottom}"><b># {desc}</b></h{serial}>"""
 
@@ -259,7 +258,7 @@ def writeTableOfContents(html, header, desc=None, mode='a'):
         desc= header
         
     with open(html, mode) as f:
-        ref= ('-').join(header.lower().split())
+        ref= ('-').join(header.split())
         message = f"""
 <li><a href=#{ref}><b>{desc}</b></a></li>"""
 
