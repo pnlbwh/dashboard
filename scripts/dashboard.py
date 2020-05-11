@@ -176,8 +176,8 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     # given
     header= 'Raw data trees'
     writeTableOfContents(tocFile, header)
-    writeHeader(statFile, secondary, header)
-    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#raw-data-trees">See trees</a></p>""")
+    ref= writeHeader(statFile, secondary, header)
+    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#{ref}">See trees</a></p>""")
     writeHeader(treeFile, secondary, header)
     givenDir= config['DIR']['givenDir']
     for id in cases:
@@ -190,8 +190,8 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     # derivatives
     header= 'Derived data trees'
     writeTableOfContents(tocFile, header)
-    writeHeader(statFile, secondary, header)
-    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#derived-data-trees">See trees</a></p>""")
+    ref= writeHeader(statFile, secondary, header)
+    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#{ref}">See trees</a></p>""")
     writeHeader(treeFile, secondary, header)
     derivDir= config['DIR']['derivDir']
     for id in cases:
@@ -249,7 +249,7 @@ def writeHeader(html, serial, header, desc=None, mode='a'):
 
         f.write(message)
 
-        
+    return ref
         
 
 def writeTableOfContents(html, header, desc=None, mode='a'):
@@ -265,7 +265,7 @@ def writeTableOfContents(html, header, desc=None, mode='a'):
         f.write(message)
 
 
-    
+
 if __name__=='__main__':
     
     CWD= getcwd()
