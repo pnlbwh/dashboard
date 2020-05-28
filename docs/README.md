@@ -17,6 +17,8 @@ Table of Contents
       * [Pipeline](#pipeline)
    * [Usage](#usage)
    * [Examples](#examples)
+      * [Once](#once)
+      * [Repeatedly](#repeatedly)
 
 Table of Contents created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -74,6 +76,8 @@ optional arguments:
 
 # Examples
 
+## Once
+
 ```bash
 # dash_config.ini exists in the PWD, writes to default outDir, --pipe-config unavailable
 scripts/dashboard.py
@@ -89,6 +93,18 @@ scripts/dashboard.py /tmp/report --dash-config /path/to/config.ini --pipe-config
 ```
 
 
+## Repeatedly
 
-
+```bash
+while [ 1 ]; 
+do 
+    echo Updating dashboard ...; 
+    
+    scripts/dashboard.py /tmp/report --dash-config /path/to/config.ini --pipe-config ~/luigi-pnlpipe/params/struct_pipe_params.cfg; 
+    
+    echo Updated at `date`; 
+    echo Sleeping ...; 
+    sleep 15m; 
+done
+```
 
