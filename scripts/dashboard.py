@@ -61,9 +61,20 @@ def getDetails(cases, item):
             details.loc[row] = [id, basename(target), '-', '-', '-']
 
         row += 1
+    
 
-    details.loc[row]= ['Total','','',sum([x for x in details['size_M'] if x!='-']),'']
+    # disable the total size calculation, it is already available in the summary
+    '''
+    total_size= sum([x for x in details['size_M'] if x!='-'])
+    if total_size >= 1000:
+        total_size= np.round(total_size / 1000, decimals=2)
+        total_size= str(total_size)+'G'
+    else:
+        total_size= np.round(total_size, decimals=2)
+        total_size= str(total_size)+'M'
 
+    details.loc[row]= ['Total','','',total_size,'']
+    '''
 
     return details
 
@@ -72,6 +83,7 @@ def getSummary(section, cases):
 
     summary = pd.DataFrame(columns=['item', f'exists\n(out of {len(cases)})', 'total size'])
     row= 0
+    total_size= 0
     for key, item in section.items():
 
         count = 0
@@ -84,6 +96,32 @@ def getSummary(section, cases):
         summary.loc[row]= [key, count, size]
         
         row += 1
+        
+        unit= size[-1]
+        value= float(size[:-1])
+        # convert all of them to M
+        if unit=='K':
+            value/= 1000
+            total_size+= value
+        elif unit=='M':
+            total_size+= value
+        elif unit=='G':
+            value*= 1000
+            total_size+= value
+    
+    
+    if total_size < 1:
+        total_size= np.round(total_size * 1000, decimals=2)
+        total_size= str(total_size)+'K'
+    elif total_size >= 1000:
+        total_size= np.round(total_size / 1000, decimals=2)
+        total_size= str(total_size)+'G'
+    else:
+        total_size= np.round(total_size, decimals=2)
+        total_size= str(total_size)+'M'
+
+    
+    summary.loc[row]= ['Total','',total_size]
 
 
     return summary
