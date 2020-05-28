@@ -39,8 +39,8 @@ caseid,attribute_name,created_by,size_M,date_modified
 1040,sub-1040_ses-01_desc-Xc_dwi.nii.gz,ek520,83.0,Wed Feb 26 08:20:45 2020
 1041,sub-1041_ses-01_desc-Xc_dwi.nii.gz,ek520,84.02,Wed Feb 26 08:41:42 2020
 1042,sub-1042_ses-01_desc-Xc_dwi.nii.gz,ek520,87.63,Wed Feb 26 09:01:23 2020
-1043,sub-1043_ses-01_desc-Xc_dwi.nii.gz,-,-,-
-1044,sub-1044_ses-01_desc-Xc_dwi.nii.gz,-,-,-
+1043,sub-1043_ses-01_desc-Xc_dwi.nii.gz,ek520,85.26,Mon Mar 23 17:08:10 2020
+1044,sub-1044_ses-01_desc-Xc_dwi.nii.gz,ek520,87.36,Wed May 13 15:03:25 2020
 1045,sub-1045_ses-01_desc-Xc_dwi.nii.gz,ek520,85.84,Wed Feb 26 09:20:34 2020
 1046,sub-1046_ses-01_desc-Xc_dwi.nii.gz,ek520,85.97,Wed Feb 26 09:45:55 2020
 1047,sub-1047_ses-01_desc-Xc_dwi.nii.gz,ek520,82.68,Wed Feb 26 10:18:29 2020
@@ -123,7 +123,7 @@ caseid,attribute_name,created_by,size_M,date_modified
 3055,sub-3055_ses-01_desc-Xc_dwi.nii.gz,ek520,82.58,Thu Feb 27 05:19:23 2020
 3056,sub-3056_ses-01_desc-Xc_dwi.nii.gz,ek520,82.49,Thu Feb 27 05:28:34 2020
 3057,sub-3057_ses-01_desc-Xc_dwi.nii.gz,ek520,85.26,Thu Feb 27 05:36:15 2020
-3058,sub-3058_ses-01_desc-Xc_dwi.nii.gz,-,-,-
+3058,sub-3058_ses-01_desc-Xc_dwi.nii.gz,ek520,86.2,Mon Mar 23 17:27:42 2020
 3059,sub-3059_ses-01_desc-Xc_dwi.nii.gz,ek520,84.96,Thu Feb 27 05:45:21 2020
 3060,sub-3060_ses-01_desc-Xc_dwi.nii.gz,ek520,85.46,Thu Feb 27 05:50:50 2020
 3061,sub-3061_ses-01_desc-Xc_dwi.nii.gz,ek520,84.25,Fri Feb 28 09:21:55 2020
@@ -168,7 +168,6 @@ caseid,attribute_name,created_by,size_M,date_modified
 5036,sub-5036_ses-01_desc-Xc_dwi.nii.gz,ek520,88.18,Thu Feb 27 15:40:39 2020
 5037,sub-5037_ses-01_desc-Xc_dwi.nii.gz,ek520,85.72,Thu Feb 27 16:07:15 2020
 5038,sub-5038_ses-01_desc-Xc_dwi.nii.gz,-,-,-
-5039,sub-5039_ses-01_desc-Xc_dwi.nii.gz,-,-,-
 5040,sub-5040_ses-01_desc-Xc_dwi.nii.gz,ek520,85.81,Thu Feb 27 16:10:53 2020
 5041,sub-5041_ses-01_desc-Xc_dwi.nii.gz,ek520,87.22,Thu Feb 27 16:26:14 2020
 5042,sub-5042_ses-01_desc-Xc_dwi.nii.gz,ek520,90.79,Thu Feb 27 16:43:26 2020
@@ -179,7 +178,6 @@ caseid,attribute_name,created_by,size_M,date_modified
 5047,sub-5047_ses-01_desc-Xc_dwi.nii.gz,clk47,85.58,Wed Feb 26 11:17:14 2020
 5048,sub-5048_ses-01_desc-Xc_dwi.nii.gz,ek520,87.74,Thu Feb 27 14:35:39 2020
 5049,sub-5049_ses-01_desc-Xc_dwi.nii.gz,ek520,86.93,Thu Feb 27 14:48:10 2020
-5050,sub-5050_ses-01_desc-Xc_dwi.nii.gz,-,-,-
 5051,sub-5051_ses-01_desc-Xc_dwi.nii.gz,-,-,-
 5052,sub-5052_ses-01_desc-Xc_dwi.nii.gz,ek520,85.96,Thu Feb 27 15:03:55 2020
 5053,sub-5053_ses-01_desc-Xc_dwi.nii.gz,ek520,85.14,Thu Feb 27 15:10:19 2020
@@ -240,7 +238,6 @@ caseid,attribute_name,created_by,size_M,date_modified
 7053,sub-7053_ses-01_desc-Xc_dwi.nii.gz,ek520,82.33,Thu Feb 27 17:05:39 2020
 7054,sub-7054_ses-01_desc-Xc_dwi.nii.gz,ek520,86.77,Thu Feb 27 17:09:13 2020
 7055,sub-7055_ses-01_desc-Xc_dwi.nii.gz,ek520,86.25,Thu Feb 27 17:18:07 2020
-7056,sub-7056_ses-01_desc-Xc_dwi.nii.gz,-,-,-
 7057,sub-7057_ses-01_desc-Xc_dwi.nii.gz,ek520,84.04,Thu Feb 27 17:27:18 2020
 7058,sub-7058_ses-01_desc-Xc_dwi.nii.gz,ek520,88.3,Thu Feb 27 17:32:40 2020
 7059,sub-7059_ses-01_desc-Xc_dwi.nii.gz,ek520,84.62,Thu Feb 27 17:47:22 2020
@@ -249,4 +246,4 @@ caseid,attribute_name,created_by,size_M,date_modified
 7063,sub-7063_ses-01_desc-Xc_dwi.nii.gz,ek520,83.68,Thu Feb 27 17:58:42 2020
 7064,sub-7064_ses-01_desc-Xc_dwi.nii.gz,ek520,86.3,Thu Feb 27 18:08:06 2020
 7065,sub-7065_ses-01_desc-Xc_dwi.nii.gz,ek520,85.23,Thu Feb 27 18:11:35 2020
-Total,,,19601.02,
+Total,,,19859.84,

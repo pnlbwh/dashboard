@@ -39,7 +39,7 @@ caseid,attribute_name,created_by,size_M,date_modified
 1040,sub-1040_ses-01_desc-T2wXcMabs_mask.nii.gz,bv991,0.14,Fri Feb 28 21:17:03 2020
 1041,sub-1041_ses-01_desc-T2wXcMabs_mask.nii.gz,bv991,0.14,Fri Feb 28 21:18:56 2020
 1042,sub-1042_ses-01_desc-T2wXcMabs_mask.nii.gz,bv991,0.15,Fri Feb 28 21:27:56 2020
-1043,sub-1043_ses-01_desc-T2wXcMabs_mask.nii.gz,-,-,-
+1043,sub-1043_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Tue Mar 24 09:37:31 2020
 1044,sub-1044_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Thu Mar 19 12:16:27 2020
 1045,sub-1045_ses-01_desc-T2wXcMabs_mask.nii.gz,bv991,0.15,Fri Feb 28 21:36:41 2020
 1046,sub-1046_ses-01_desc-T2wXcMabs_mask.nii.gz,bv991,0.15,Fri Feb 28 21:30:12 2020
@@ -123,7 +123,7 @@ caseid,attribute_name,created_by,size_M,date_modified
 3055,sub-3055_ses-01_desc-T2wXcMabs_mask.nii.gz,bv991,0.15,Sat Feb 29 00:46:01 2020
 3056,sub-3056_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Wed Mar 18 17:54:41 2020
 3057,sub-3057_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 04:40:59 2020
-3058,sub-3058_ses-01_desc-T2wXcMabs_mask.nii.gz,-,-,-
+3058,sub-3058_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Tue Mar 24 09:27:00 2020
 3059,sub-3059_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 09:26:00 2020
 3060,sub-3060_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 04:57:02 2020
 3061,sub-3061_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 05:12:46 2020
@@ -163,12 +163,11 @@ caseid,attribute_name,created_by,size_M,date_modified
 5031,sub-5031_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 08:25:51 2020
 5032,sub-5032_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 08:32:12 2020
 5033,sub-5033_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 08:32:04 2020
-5034,sub-5034_ses-01_desc-T2wXcMabs_mask.nii.gz,-,-,-
+5034,sub-5034_ses-01_desc-T2wXcMabs_mask.nii.gz,tb571,0.09,Sat Apr 11 16:35:31 2020
 5035,sub-5035_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 08:41:43 2020
 5036,sub-5036_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 08:47:13 2020
 5037,sub-5037_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 08:48:18 2020
 5038,sub-5038_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 08:57:22 2020
-5039,sub-5039_ses-01_desc-T2wXcMabs_mask.nii.gz,-,-,-
 5040,sub-5040_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 09:03:17 2020
 5041,sub-5041_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 09:04:30 2020
 5042,sub-5042_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.16,Sat Feb 29 09:13:06 2020
@@ -179,7 +178,6 @@ caseid,attribute_name,created_by,size_M,date_modified
 5047,sub-5047_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Thu Feb 27 16:54:42 2020
 5048,sub-5048_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.16,Sat Feb 29 09:24:52 2020
 5049,sub-5049_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 09:22:44 2020
-5050,sub-5050_ses-01_desc-T2wXcMabs_mask.nii.gz,-,-,-
 5051,sub-5051_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 09:29:08 2020
 5052,sub-5052_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 09:27:00 2020
 5053,sub-5053_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 09:32:38 2020
@@ -240,7 +238,6 @@ caseid,attribute_name,created_by,size_M,date_modified
 7053,sub-7053_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.13,Sat Feb 29 11:10:39 2020
 7054,sub-7054_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 11:16:19 2020
 7055,sub-7055_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 16:14:15 2020
-7056,sub-7056_ses-01_desc-T2wXcMabs_mask.nii.gz,-,-,-
 7057,sub-7057_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 11:18:14 2020
 7058,sub-7058_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 11:16:31 2020
 7059,sub-7059_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 16:14:55 2020
@@ -249,4 +246,4 @@ caseid,attribute_name,created_by,size_M,date_modified
 7063,sub-7063_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 11:22:40 2020
 7064,sub-7064_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.15,Sat Feb 29 11:20:43 2020
 7065,sub-7065_ses-01_desc-T2wXcMabs_mask.nii.gz,ek520,0.14,Sat Feb 29 11:32:09 2020
-Total,,,35.62999999999993,
+Total,,,36.009999999999934,

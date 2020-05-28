@@ -1,5 +1,5 @@
 caseid,attribute_name,created_by,size_M,date_modified
-1001,sub-1001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1001,sub-1001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Feb 27 17:25:17 2020
 1002,sub-1002_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Thu Mar 19 16:55:40 2020
 1003,sub-1003_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Fri Mar 20 00:13:32 2020
 1004,sub-1004_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Fri Mar 20 05:23:42 2020
@@ -17,19 +17,19 @@ caseid,attribute_name,created_by,size_M,date_modified
 1018,sub-1018_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Fri Mar 20 21:26:30 2020
 1019,sub-1019_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Sat Mar 21 00:38:05 2020
 1020,sub-1020_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 01:14:39 2020
-1021,sub-1021_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-1022,sub-1022_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1021,sub-1021_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Feb 27 17:22:26 2020
+1022,sub-1022_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:05:36 2020
 1023,sub-1023_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 02:05:22 2020
 1024,sub-1024_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 02:37:03 2020
-1025,sub-1025_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1025,sub-1025_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:28:43 2020
 1026,sub-1026_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat Mar 21 02:57:53 2020
 1027,sub-1027_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 04:28:16 2020
-1028,sub-1028_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1028,sub-1028_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat May  9 12:06:42 2020
 1029,sub-1029_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat Mar 21 07:04:04 2020
 1030,sub-1030_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat Mar 21 08:15:46 2020
 1031,sub-1031_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 08:20:23 2020
-1032,sub-1032_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-1033,sub-1033_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1032,sub-1032_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Feb 27 17:16:21 2020
+1033,sub-1033_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat May  9 12:05:49 2020
 1034,sub-1034_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 08:53:12 2020
 1035,sub-1035_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 08:59:08 2020
 1036,sub-1036_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat Mar 21 12:02:33 2020
@@ -39,7 +39,7 @@ caseid,attribute_name,created_by,size_M,date_modified
 1040,sub-1040_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Sat Mar 21 14:07:05 2020
 1041,sub-1041_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 17:31:36 2020
 1042,sub-1042_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat Mar 21 17:53:30 2020
-1043,sub-1043_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1043,sub-1043_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Mar 26 13:57:19 2020
 1044,sub-1044_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat Mar 21 18:28:17 2020
 1045,sub-1045_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat Mar 21 19:40:45 2020
 1046,sub-1046_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat Mar 21 20:18:28 2020
@@ -49,9 +49,9 @@ caseid,attribute_name,created_by,size_M,date_modified
 1051,sub-1051_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Sat Mar 21 23:48:22 2020
 1052,sub-1052_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sun Mar 22 01:07:47 2020
 1053,sub-1053_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sun Mar 22 01:08:01 2020
-1054,sub-1054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1054,sub-1054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:05:55 2020
 1055,sub-1055_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sun Mar 22 02:48:27 2020
-1056,sub-1056_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+1056,sub-1056_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:05:41 2020
 1057,sub-1057_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Sun Mar 22 02:54:38 2020
 1058,sub-1058_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sun Mar 22 04:18:46 2020
 1059,sub-1059_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sun Mar 22 04:38:16 2020
@@ -69,16 +69,16 @@ caseid,attribute_name,created_by,size_M,date_modified
 1071,sub-1071_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Sun Mar 22 14:41:37 2020
 1072,sub-1072_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
 1073,sub-1073_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Sun Mar 22 15:16:53 2020
-3001,sub-3001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3002,sub-3002_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3001,sub-3001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.21,Thu Feb 27 17:30:21 2020
+3002,sub-3002_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:05:46 2020
 3003,sub-3003_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Sun Mar 22 16:35:48 2020
 3005,sub-3005_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Sun Mar 22 17:49:01 2020
-3006,sub-3006_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3008,sub-3008_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3006,sub-3006_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:27:45 2020
+3008,sub-3008_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.21,Thu Feb 27 17:16:52 2020
 3009,sub-3009_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sun Mar 22 19:19:39 2020
 3010,sub-3010_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sun Mar 22 19:29:30 2020
 3011,sub-3011_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sun Mar 22 19:30:39 2020
-3012,sub-3012_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3012,sub-3012_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:05:47 2020
 3013,sub-3013_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sun Mar 22 20:45:45 2020
 3014,sub-3014_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sun Mar 22 22:05:06 2020
 3015,sub-3015_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sun Mar 22 22:56:26 2020
@@ -88,10 +88,10 @@ caseid,attribute_name,created_by,size_M,date_modified
 3019,sub-3019_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 01:43:06 2020
 3020,sub-3020_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Mon Mar 23 03:55:16 2020
 3021,sub-3021_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 04:39:50 2020
-3023,sub-3023_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3023,sub-3023_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:05:33 2020
 3024,sub-3024_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 05:22:47 2020
 3025,sub-3025_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 05:27:06 2020
-3026,sub-3026_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3026,sub-3026_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Mar 26 13:56:52 2020
 3027,sub-3027_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 05:30:55 2020
 3028,sub-3028_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Mon Mar 23 07:28:05 2020
 3029,sub-3029_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 10:08:08 2020
@@ -100,7 +100,7 @@ caseid,attribute_name,created_by,size_M,date_modified
 3032,sub-3032_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 10:46:36 2020
 3033,sub-3033_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 11:58:03 2020
 3034,sub-3034_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 13:19:54 2020
-3035,sub-3035_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3035,sub-3035_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Mar 26 13:57:10 2020
 3036,sub-3036_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 13:20:07 2020
 3037,sub-3037_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 13:19:58 2020
 3038,sub-3038_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 13:20:28 2020
@@ -110,143 +110,140 @@ caseid,attribute_name,created_by,size_M,date_modified
 3042,sub-3042_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 13:20:42 2020
 3043,sub-3043_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Mon Mar 23 13:20:53 2020
 3044,sub-3044_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Mon Mar 23 13:21:30 2020
-3045,sub-3045_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3046,sub-3046_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3045,sub-3045_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 18:03:26 2020
+3046,sub-3046_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 18:34:39 2020
 3047,sub-3047_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3048,sub-3048_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3049,sub-3049_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3050,sub-3050_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3051,sub-3051_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3052,sub-3052_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3053,sub-3053_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3054,sub-3054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3055,sub-3055_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3056,sub-3056_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3057,sub-3057_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3058,sub-3058_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3059,sub-3059_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3060,sub-3060_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3061,sub-3061_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3062,sub-3062_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3063,sub-3063_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3064,sub-3064_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3065,sub-3065_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-3066,sub-3066_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5001,sub-5001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5002,sub-5002_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5003,sub-5003_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5004,sub-5004_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5005,sub-5005_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5006,sub-5006_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5007,sub-5007_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5008,sub-5008_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5009,sub-5009_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5010,sub-5010_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5011,sub-5011_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5012,sub-5012_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5013,sub-5013_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5014,sub-5014_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5015,sub-5015_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5016,sub-5016_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5017,sub-5017_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5019,sub-5019_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5020,sub-5020_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5021,sub-5021_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5022,sub-5022_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5023,sub-5023_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5024,sub-5024_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5025,sub-5025_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5027,sub-5027_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5028,sub-5028_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5029,sub-5029_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5030,sub-5030_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5031,sub-5031_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5032,sub-5032_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5033,sub-5033_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5034,sub-5034_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5035,sub-5035_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5036,sub-5036_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5037,sub-5037_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5038,sub-5038_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5039,sub-5039_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5040,sub-5040_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5041,sub-5041_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5042,sub-5042_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5043,sub-5043_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5044,sub-5044_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5045,sub-5045_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5046,sub-5046_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5047,sub-5047_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5048,sub-5048_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5049,sub-5049_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5050,sub-5050_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5051,sub-5051_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5052,sub-5052_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5053,sub-5053_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5054,sub-5054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5055,sub-5055_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5056,sub-5056_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5057,sub-5057_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-5058,sub-5058_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7001,sub-7001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7002,sub-7002_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7003,sub-7003_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7004,sub-7004_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7005,sub-7005_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7006,sub-7006_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7007,sub-7007_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+3048,sub-3048_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 18:46:20 2020
+3049,sub-3049_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Mar 26 13:56:40 2020
+3050,sub-3050_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 18:48:28 2020
+3051,sub-3051_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Mon Mar 23 18:53:29 2020
+3052,sub-3052_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 19:00:06 2020
+3053,sub-3053_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Mon Mar 23 19:09:40 2020
+3054,sub-3054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 19:09:38 2020
+3055,sub-3055_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 19:23:42 2020
+3056,sub-3056_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Mon Mar 23 20:01:38 2020
+3057,sub-3057_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Mon Mar 23 20:10:37 2020
+3058,sub-3058_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Mar 26 13:56:26 2020
+3059,sub-3059_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Mon Mar 23 20:38:44 2020
+3060,sub-3060_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 21:04:59 2020
+3061,sub-3061_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 21:17:53 2020
+3062,sub-3062_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Mon Mar 23 21:33:37 2020
+3063,sub-3063_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 00:03:41 2020
+3064,sub-3064_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 00:34:44 2020
+3065,sub-3065_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 01:21:43 2020
+3066,sub-3066_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 01:24:05 2020
+5001,sub-5001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 01:39:27 2020
+5002,sub-5002_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 01:50:58 2020
+5003,sub-5003_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 02:26:05 2020
+5004,sub-5004_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Tue Mar 24 02:36:29 2020
+5005,sub-5005_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 03:11:58 2020
+5006,sub-5006_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 03:15:24 2020
+5007,sub-5007_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 03:23:43 2020
+5008,sub-5008_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Tue Mar 24 03:24:28 2020
+5009,sub-5009_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 04:56:10 2020
+5010,sub-5010_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 05:14:32 2020
+5011,sub-5011_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Fri Feb 28 10:04:08 2020
+5012,sub-5012_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 06:03:47 2020
+5013,sub-5013_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 06:37:59 2020
+5014,sub-5014_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:16:47 2020
+5015,sub-5015_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 07:57:18 2020
+5016,sub-5016_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:06:16 2020
+5017,sub-5017_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 08:11:24 2020
+5019,sub-5019_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 08:17:11 2020
+5020,sub-5020_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 08:34:00 2020
+5021,sub-5021_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 08:35:09 2020
+5022,sub-5022_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Feb 27 17:30:00 2020
+5023,sub-5023_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 09:03:47 2020
+5024,sub-5024_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Tue Mar 24 09:10:20 2020
+5025,sub-5025_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Tue Mar 24 09:16:03 2020
+5027,sub-5027_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 11:38:50 2020
+5028,sub-5028_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 12:23:49 2020
+5029,sub-5029_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 12:29:30 2020
+5030,sub-5030_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 12:32:00 2020
+5031,sub-5031_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 12:32:20 2020
+5032,sub-5032_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat May  9 12:06:18 2020
+5033,sub-5033_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 12:44:25 2020
+5034,sub-5034_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:27:48 2020
+5035,sub-5035_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 12:54:41 2020
+5036,sub-5036_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 13:19:34 2020
+5037,sub-5037_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Tue Mar 24 14:46:42 2020
+5038,sub-5038_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 14:52:34 2020
+5040,sub-5040_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Sat May  9 12:06:24 2020
+5041,sub-5041_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 14:59:14 2020
+5042,sub-5042_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Tue Mar 24 14:59:20 2020
+5043,sub-5043_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Tue Mar 24 15:27:49 2020
+5044,sub-5044_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:14:44 2020
+5045,sub-5045_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 15:44:23 2020
+5046,sub-5046_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 16:16:29 2020
+5047,sub-5047_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:19:25 2020
+5048,sub-5048_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 16:20:14 2020
+5049,sub-5049_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 20:01:26 2020
+5051,sub-5051_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 20:35:43 2020
+5052,sub-5052_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Tue Mar 24 20:42:57 2020
+5053,sub-5053_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 20:48:26 2020
+5054,sub-5054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 20:52:43 2020
+5055,sub-5055_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 20:54:31 2020
+5056,sub-5056_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Tue Mar 24 20:58:48 2020
+5057,sub-5057_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 21:01:44 2020
+5058,sub-5058_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 21:17:43 2020
+7001,sub-7001_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Mar 26 13:56:48 2020
+7002,sub-7002_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 21:43:53 2020
+7003,sub-7003_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Tue Mar 24 22:07:20 2020
+7004,sub-7004_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Tue Mar 24 22:11:19 2020
+7005,sub-7005_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 22:30:31 2020
+7006,sub-7006_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 22:52:52 2020
+7007,sub-7007_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:17:38 2020
 7008,sub-7008_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
 7009,sub-7009_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7010,sub-7010_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7011,sub-7011_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7012,sub-7012_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+7010,sub-7010_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Tue Mar 24 23:46:39 2020
+7011,sub-7011_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 00:49:27 2020
+7012,sub-7012_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 03:03:50 2020
 7013,sub-7013_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7014,sub-7014_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7015,sub-7015_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7016,sub-7016_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7017,sub-7017_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7018,sub-7018_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7019,sub-7019_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7020,sub-7020_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7021,sub-7021_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+7014,sub-7014_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 03:10:05 2020
+7015,sub-7015_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 03:23:53 2020
+7016,sub-7016_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 03:52:04 2020
+7017,sub-7017_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 04:01:31 2020
+7018,sub-7018_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 04:03:48 2020
+7019,sub-7019_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 04:05:20 2020
+7020,sub-7020_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 04:12:36 2020
+7021,sub-7021_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 04:35:32 2020
 7022,sub-7022_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7023,sub-7023_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7024,sub-7024_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7026,sub-7026_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7027,sub-7027_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7028,sub-7028_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7029,sub-7029_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7030,sub-7030_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7031,sub-7031_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7032,sub-7032_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
+7023,sub-7023_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 06:01:59 2020
+7024,sub-7024_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 06:29:39 2020
+7026,sub-7026_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 06:58:07 2020
+7027,sub-7027_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat May  9 12:06:09 2020
+7028,sub-7028_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat May  9 12:05:51 2020
+7029,sub-7029_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 07:11:37 2020
+7030,sub-7030_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 07:14:54 2020
+7031,sub-7031_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 07:28:06 2020
+7032,sub-7032_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.18,Thu Feb 27 17:14:57 2020
 7033,sub-7033_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7034,sub-7034_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7036,sub-7036_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7037,sub-7037_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7038,sub-7038_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7039,sub-7039_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7041,sub-7041_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7042,sub-7042_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7043,sub-7043_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7044,sub-7044_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7045,sub-7045_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7046,sub-7046_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7047,sub-7047_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7048,sub-7048_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7049,sub-7049_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7050,sub-7050_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7051,sub-7051_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7052,sub-7052_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7053,sub-7053_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7054,sub-7054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7055,sub-7055_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7056,sub-7056_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7057,sub-7057_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7058,sub-7058_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7059,sub-7059_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7060,sub-7060_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7062,sub-7062_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7063,sub-7063_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7064,sub-7064_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-7065,sub-7065_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,-,-,-
-Total,,,17.83999999999999,
+7034,sub-7034_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Thu Feb 27 17:26:28 2020
+7036,sub-7036_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 07:51:13 2020
+7037,sub-7037_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 08:15:21 2020
+7038,sub-7038_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 13:59:21 2020
+7039,sub-7039_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 13:58:05 2020
+7041,sub-7041_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 13:56:43 2020
+7042,sub-7042_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 13:57:33 2020
+7043,sub-7043_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat May  9 12:06:13 2020
+7044,sub-7044_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Wed Mar 25 14:00:06 2020
+7045,sub-7045_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 13:58:56 2020
+7046,sub-7046_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 14:00:18 2020
+7047,sub-7047_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed May  6 18:02:10 2020
+7048,sub-7048_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Sat May  9 12:06:22 2020
+7049,sub-7049_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Sat May  9 12:05:15 2020
+7050,sub-7050_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.21,Wed Mar 25 14:01:16 2020
+7051,sub-7051_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 14:04:15 2020
+7052,sub-7052_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 14:06:38 2020
+7053,sub-7053_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Wed Mar 25 14:03:04 2020
+7054,sub-7054_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 14:05:09 2020
+7055,sub-7055_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 14:22:23 2020
+7057,sub-7057_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Wed Mar 25 14:05:26 2020
+7058,sub-7058_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 14:06:00 2020
+7059,sub-7059_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 14:23:08 2020
+7060,sub-7060_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.19,Thu Feb 27 17:21:03 2020
+7062,sub-7062_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,ek520,0.2,Fri Feb 28 10:03:51 2020
+7063,sub-7063_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.18,Wed Mar 25 19:24:43 2020
+7064,sub-7064_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.2,Wed Mar 25 19:33:43 2020
+7065,sub-7065_ses-01_desc-T2wXcMabsQcToT1wXc_mask.nii.gz,tb571,0.19,Wed Mar 25 19:34:35 2020
+Total,,,46.379999999999974,
