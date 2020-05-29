@@ -24,6 +24,20 @@ secondary= 3
 tertiary= 4
 
 
+def human_size(total_size):
+    
+    total_size= np.int64(total_size)
+
+    if total_size >= GB:
+        total_size= np.round(total_size / GB, decimals=2)
+        total_size= str(total_size)+'G'
+    elif total_size >= MB:
+        total_size= np.round(total_size / MB, decimals=2)
+        total_size= str(total_size)+'M'
+
+    return total_size
+
+
 def getFolderSize(folder):
 
     total_size = 0.
@@ -63,18 +77,12 @@ def getDetails(cases, item):
         row += 1
     
 
-    # disable the total size calculation, it is already available in the summary
-    '''
+    # NOTE disable the total size calculation, it is already available in the summary
     total_size= sum([x for x in details['size_M'] if x!='-'])
-    if total_size >= 1000:
-        total_size= np.round(total_size / 1000, decimals=2)
-        total_size= str(total_size)+'G'
-    else:
-        total_size= np.round(total_size, decimals=2)
-        total_size= str(total_size)+'M'
 
+    # multipy by MB to make --block-size=1
+    total_size= human_size(total_size * MB)
     details.loc[row]= ['Total','','',total_size,'']
-    '''
 
     return details
 
@@ -92,35 +100,17 @@ def getSummary(section, cases):
             if isfile(target) or (isdir(target) and listdir(target)):
                 count += 1
         
-        size= check_output('du -csh {} | grep total'.format(item.replace('$','*')), shell= True).decode('UTF-8').split()[0]
+        size= check_output('du -bcs {} | grep total'.format(item.replace('$','*')), shell= True).decode('UTF-8').split()[0]
+        size= human_size(size)
         summary.loc[row]= [key, count, size]
         
         row += 1
         
-        unit= size[-1]
+        unit= eval(size[-1]+'B')
         value= float(size[:-1])
-        # convert all of them to M
-        if unit=='K':
-            value/= 1000
-            total_size+= value
-        elif unit=='M':
-            total_size+= value
-        elif unit=='G':
-            value*= 1000
-            total_size+= value
+        total_size+= value*unit
     
-    
-    if total_size < 1:
-        total_size= np.round(total_size * 1000, decimals=2)
-        total_size= str(total_size)+'K'
-    elif total_size >= 1000:
-        total_size= np.round(total_size / 1000, decimals=2)
-        total_size= str(total_size)+'G'
-    else:
-        total_size= np.round(total_size, decimals=2)
-        total_size= str(total_size)+'M'
-
-    
+    total_size= human_size(total_size)
     summary.loc[row]= ['Total','',total_size]
 
 
