@@ -14,9 +14,9 @@ import argparse
 
 SCRIPTDIR= dirname(abspath(__file__))
 
-KB= 1e3
-MB= 1e6
-GB= 1e9
+KB= 1024
+MB= KB*KB
+GB= MB*KB
 
 # header importance
 primary= 2
