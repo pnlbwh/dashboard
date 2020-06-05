@@ -34,6 +34,9 @@ def human_size(total_size):
     elif total_size >= MB:
         total_size= np.round(total_size / MB, decimals=2)
         total_size= str(total_size)+'M'
+    else:
+        total_size= np.round(total_size / KB, decimals=2)
+        total_size= str(total_size)+'K'
 
     return total_size
 
