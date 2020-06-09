@@ -3,7 +3,7 @@
 import pandas as pd
 from conversion import read_cases
 from configparser import ConfigParser
-from os.path import isfile, isdir, basename, join as pjoin, abspath, dirname
+from os.path import isfile, isdir, islink, basename, join as pjoin, abspath, dirname
 from os import listdir, stat, getpid, getcwd, makedirs
 from shutil import rmtree
 from time import ctime
@@ -48,9 +48,9 @@ def getFolderSize(folder):
         itempath = pjoin(folder, item)
 
         if isfile(itempath):
-            total_size += stat(itempath).st_size
+            total_size += stat(itempath, follow_symlinks=False).st_size
 
-        elif isdir(itempath):
+        elif isdir(itempath) and not islink(itempath):
             total_size += getFolderSize(itempath)
 
     return total_size
