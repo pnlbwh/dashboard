@@ -1,252 +1,249 @@
 caseid,attribute_name,created_by,size_M,date_modified
-1001,sub-1001_ses-01_desc-XcEd_dwi.nii.gz,clk47,304.87,Mon Mar 23 15:20:28 2020
-1002,sub-1002_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1003,sub-1003_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1004,sub-1004_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1005,sub-1005_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1006,sub-1006_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1007,sub-1007_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1008,sub-1008_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1009,sub-1009_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1010,sub-1010_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1011,sub-1011_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1012,sub-1012_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1015,sub-1015_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1016,sub-1016_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1017,sub-1017_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1018,sub-1018_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1019,sub-1019_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1020,sub-1020_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1021,sub-1021_ses-01_desc-XcEd_dwi.nii.gz,clk47,300.75,Mon Mar 23 16:18:26 2020
-1022,sub-1022_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1023,sub-1023_ses-01_desc-XcEd_dwi.nii.gz,ek520,304.35,Wed Mar 18 15:06:12 2020
+1001,sub-1001_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.48,Fri May 15 06:24:43 2020
+1002,sub-1002_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.71,Fri May 15 06:27:33 2020
+1003,sub-1003_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.1,Fri May 15 06:24:44 2020
+1004,sub-1004_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.05,Fri May 15 06:24:38 2020
+1005,sub-1005_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.79,Fri May 15 06:24:21 2020
+1006,sub-1006_ses-01_desc-XcEd_dwi.nii.gz,tb571,285.67,Fri May 15 06:22:03 2020
+1007,sub-1007_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.39,Fri May 15 06:21:34 2020
+1008,sub-1008_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.35,Fri May 15 06:28:20 2020
+1009,sub-1009_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.84,Fri May 15 06:23:07 2020
+1010,sub-1010_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.27,Fri May 15 06:21:52 2020
+1011,sub-1011_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.77,Fri May 15 06:13:38 2020
+1012,sub-1012_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.77,Fri May 15 06:15:36 2020
+1015,sub-1015_ses-01_desc-XcEd_dwi.nii.gz,tb571,284.37,Fri May 15 06:16:57 2020
+1016,sub-1016_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.23,Fri May 15 06:13:11 2020
+1017,sub-1017_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.39,Thu May 14 23:31:34 2020
+1018,sub-1018_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.54,Fri May 15 06:20:35 2020
+1019,sub-1019_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.79,Fri May 15 06:24:14 2020
+1020,sub-1020_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.99,Fri May 15 06:20:53 2020
+1021,sub-1021_ses-01_desc-XcEd_dwi.nii.gz,tb571,286.83,Fri May 15 06:21:11 2020
+1022,sub-1022_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.69,Fri May 15 06:19:46 2020
+1023,sub-1023_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.01,Fri May 15 06:21:05 2020
 1024,sub-1024_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1025,sub-1025_ses-01_desc-XcEd_dwi.nii.gz,clk47,306.52,Mon Mar 23 15:27:54 2020
-1026,sub-1026_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1027,sub-1027_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1028,sub-1028_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1029,sub-1029_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1030,sub-1030_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1031,sub-1031_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1032,sub-1032_ses-01_desc-XcEd_dwi.nii.gz,clk47,303.93,Mon Mar 23 16:20:00 2020
-1033,sub-1033_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1034,sub-1034_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1035,sub-1035_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1036,sub-1036_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1037,sub-1037_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1038,sub-1038_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1039,sub-1039_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1040,sub-1040_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1041,sub-1041_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1042,sub-1042_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1043,sub-1043_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1044,sub-1044_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1045,sub-1045_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1046,sub-1046_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1047,sub-1047_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1048,sub-1048_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1050,sub-1050_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1051,sub-1051_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1052,sub-1052_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1053,sub-1053_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1054,sub-1054_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1055,sub-1055_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1056,sub-1056_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1057,sub-1057_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1058,sub-1058_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1059,sub-1059_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1060,sub-1060_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1061,sub-1061_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1062,sub-1062_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1063,sub-1063_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1064,sub-1064_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1065,sub-1065_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1066,sub-1066_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1067,sub-1067_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1068,sub-1068_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1069,sub-1069_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1070,sub-1070_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1071,sub-1071_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+1025,sub-1025_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.34,Fri May 15 06:20:45 2020
+1026,sub-1026_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.06,Fri May 15 06:19:49 2020
+1027,sub-1027_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.37,Fri May 15 06:21:20 2020
+1028,sub-1028_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.07,Fri May 15 06:18:36 2020
+1029,sub-1029_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.54,Fri May 15 06:22:55 2020
+1030,sub-1030_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.45,Sat May 16 13:23:07 2020
+1031,sub-1031_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.71,Fri May 15 06:18:07 2020
+1032,sub-1032_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.85,Fri May 15 06:24:30 2020
+1033,sub-1033_ses-01_desc-XcEd_dwi.nii.gz,tb571,284.77,Sat May 16 13:32:20 2020
+1034,sub-1034_ses-01_desc-XcEd_dwi.nii.gz,tb571,286.85,Fri May 15 06:23:22 2020
+1035,sub-1035_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.27,Fri May 15 06:23:52 2020
+1036,sub-1036_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.61,Fri May 15 06:25:24 2020
+1037,sub-1037_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.04,Sat May 16 13:26:56 2020
+1038,sub-1038_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.54,Fri May 15 06:26:30 2020
+1039,sub-1039_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.19,Fri May 15 06:22:05 2020
+1040,sub-1040_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.2,Fri May 15 06:20:16 2020
+1041,sub-1041_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.28,Fri May 15 06:18:09 2020
+1042,sub-1042_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.16,Fri May 15 06:18:53 2020
+1043,sub-1043_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.82,Sat May 16 13:22:57 2020
+1044,sub-1044_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.88,Fri May 15 06:23:48 2020
+1045,sub-1045_ses-01_desc-XcEd_dwi.nii.gz,tb571,285.41,Fri May 15 06:25:08 2020
+1046,sub-1046_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.24,Fri May 15 06:23:45 2020
+1047,sub-1047_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.91,Fri May 15 06:23:02 2020
+1048,sub-1048_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.78,Fri May 15 06:28:12 2020
+1050,sub-1050_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.7,Fri May 15 06:20:32 2020
+1051,sub-1051_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.3,Fri May 15 06:20:15 2020
+1052,sub-1052_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.72,Fri May 15 06:20:44 2020
+1053,sub-1053_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.15,Fri May 15 06:25:48 2020
+1054,sub-1054_ses-01_desc-XcEd_dwi.nii.gz,tb571,284.72,Fri May 15 06:22:14 2020
+1055,sub-1055_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.84,Sat May 16 13:09:08 2020
+1056,sub-1056_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.63,Fri May 15 06:14:35 2020
+1057,sub-1057_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.69,Fri May 15 06:14:12 2020
+1058,sub-1058_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.71,Fri May 15 06:22:07 2020
+1059,sub-1059_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.23,Sat May 16 13:11:23 2020
+1060,sub-1060_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.01,Sat May 16 13:12:26 2020
+1061,sub-1061_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.37,Sat May 16 13:17:59 2020
+1062,sub-1062_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.76,Sat May 16 13:20:30 2020
+1063,sub-1063_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.58,Sat May 16 13:22:56 2020
+1064,sub-1064_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.47,Sat May 16 13:24:29 2020
+1065,sub-1065_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.12,Sat May 16 13:23:46 2020
+1066,sub-1066_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.86,Sat May 16 13:24:27 2020
+1067,sub-1067_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.75,Sat May 16 13:12:36 2020
+1068,sub-1068_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.34,Sat May 16 13:12:06 2020
+1069,sub-1069_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.93,Sat May 16 13:16:28 2020
+1070,sub-1070_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.81,Sat May 16 13:24:54 2020
+1071,sub-1071_ses-01_desc-XcEd_dwi.nii.gz,tb571,283.07,Sat May 16 13:19:58 2020
 1072,sub-1072_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-1073,sub-1073_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3001,sub-3001_ses-01_desc-XcEd_dwi.nii.gz,clk47,307.33,Mon Mar 23 15:26:29 2020
-3002,sub-3002_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3003,sub-3003_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3005,sub-3005_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3006,sub-3006_ses-01_desc-XcEd_dwi.nii.gz,clk47,303.96,Mon Mar 23 15:12:29 2020
-3008,sub-3008_ses-01_desc-XcEd_dwi.nii.gz,clk47,306.32,Mon Mar 23 16:06:13 2020
-3009,sub-3009_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3010,sub-3010_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3011,sub-3011_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3012,sub-3012_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3013,sub-3013_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3014,sub-3014_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3015,sub-3015_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3016,sub-3016_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+1073,sub-1073_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.14,Sat May 16 13:22:14 2020
+3001,sub-3001_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.11,Sat May 16 13:36:20 2020
+3002,sub-3002_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.06,Sat May 16 13:22:41 2020
+3003,sub-3003_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.97,Sat May 16 13:28:04 2020
+3005,sub-3005_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.6,Sat May 16 13:26:20 2020
+3006,sub-3006_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.91,Sat May 16 13:27:15 2020
+3008,sub-3008_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.07,Sat May 16 13:14:04 2020
+3009,sub-3009_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.2,Sat May 16 13:13:09 2020
+3010,sub-3010_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.63,Sat May 16 13:25:57 2020
+3011,sub-3011_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.7,Sat May 16 13:31:38 2020
+3012,sub-3012_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.04,Sat May 16 13:27:09 2020
+3013,sub-3013_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.39,Sat May 16 13:28:59 2020
+3014,sub-3014_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.16,Sat May 16 13:12:52 2020
+3015,sub-3015_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.16,Sat May 16 13:31:35 2020
+3016,sub-3016_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.39,Sat May 16 13:45:05 2020
 3017,sub-3017_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
 3018,sub-3018_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
 3019,sub-3019_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
 3020,sub-3020_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3021,sub-3021_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+3021,sub-3021_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.28,Fri May 15 12:39:14 2020
 3023,sub-3023_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3024,sub-3024_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3025,sub-3025_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3026,sub-3026_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3027,sub-3027_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3028,sub-3028_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3029,sub-3029_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3030,sub-3030_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3031,sub-3031_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3032,sub-3032_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3033,sub-3033_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3034,sub-3034_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3035,sub-3035_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3036,sub-3036_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3037,sub-3037_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3038,sub-3038_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3039,sub-3039_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3040,sub-3040_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3041,sub-3041_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+3024,sub-3024_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.83,Sat May 16 13:48:21 2020
+3025,sub-3025_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.12,Sat May 16 13:40:36 2020
+3026,sub-3026_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.43,Sat May 16 14:08:44 2020
+3027,sub-3027_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.26,Sat May 16 14:14:45 2020
+3028,sub-3028_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.33,Sat May 16 14:12:55 2020
+3029,sub-3029_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.59,Sat May 16 14:13:52 2020
+3030,sub-3030_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.13,Sat May 16 14:15:20 2020
+3031,sub-3031_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.86,Sat May 16 14:13:34 2020
+3032,sub-3032_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.42,Sat May 16 14:15:46 2020
+3033,sub-3033_ses-01_desc-XcEd_dwi.nii.gz,tb571,305.13,Sat May 16 14:19:06 2020
+3034,sub-3034_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.96,Sat May 16 14:16:46 2020
+3035,sub-3035_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.27,Sat May 16 14:33:43 2020
+3036,sub-3036_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.82,Sat May 16 14:27:57 2020
+3037,sub-3037_ses-01_desc-XcEd_dwi.nii.gz,tb571,283.8,Sat May 16 14:31:16 2020
+3038,sub-3038_ses-01_desc-XcEd_dwi.nii.gz,tb571,285.61,Sat May 16 14:33:22 2020
+3039,sub-3039_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.9,Sat May 16 14:37:01 2020
+3040,sub-3040_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.77,Sat May 16 14:37:27 2020
+3041,sub-3041_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.86,Sat May 16 14:36:56 2020
 3042,sub-3042_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3043,sub-3043_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3044,sub-3044_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+3043,sub-3043_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.24,Sat May 16 14:37:48 2020
+3044,sub-3044_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.24,Sat May 16 14:39:04 2020
 3045,sub-3045_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3046,sub-3046_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+3046,sub-3046_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.34,Sat May 16 14:37:28 2020
 3047,sub-3047_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3048,sub-3048_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3049,sub-3049_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3050,sub-3050_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3051,sub-3051_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3052,sub-3052_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3053,sub-3053_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3054,sub-3054_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3055,sub-3055_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3056,sub-3056_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3057,sub-3057_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3058,sub-3058_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3059,sub-3059_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3060,sub-3060_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3061,sub-3061_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3062,sub-3062_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3063,sub-3063_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3064,sub-3064_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3065,sub-3065_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-3066,sub-3066_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5001,sub-5001_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5002,sub-5002_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5003,sub-5003_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5004,sub-5004_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5005,sub-5005_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5006,sub-5006_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5007,sub-5007_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5008,sub-5008_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5009,sub-5009_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5010,sub-5010_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5011,sub-5011_ses-01_desc-XcEd_dwi.nii.gz,clk47,306.42,Mon Mar 23 15:16:00 2020
-5012,sub-5012_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5013,sub-5013_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5014,sub-5014_ses-01_desc-XcEd_dwi.nii.gz,clk47,306.79,Mon Mar 23 16:16:45 2020
-5015,sub-5015_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5016,sub-5016_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5017,sub-5017_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5019,sub-5019_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5020,sub-5020_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5021,sub-5021_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5022,sub-5022_ses-01_desc-XcEd_dwi.nii.gz,clk47,303.36,Mon Mar 23 15:10:55 2020
-5023,sub-5023_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5024,sub-5024_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5025,sub-5025_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5027,sub-5027_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+3048,sub-3048_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.94,Sat May 16 14:39:20 2020
+3049,sub-3049_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.02,Sat May 16 14:41:13 2020
+3050,sub-3050_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.76,Sat May 16 14:41:32 2020
+3051,sub-3051_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.28,Sat May 16 14:28:57 2020
+3052,sub-3052_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.48,Sat May 16 14:44:16 2020
+3053,sub-3053_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.92,Sat May 16 14:43:56 2020
+3054,sub-3054_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.08,Sat May 16 14:42:35 2020
+3055,sub-3055_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.28,Sat May 16 14:45:49 2020
+3056,sub-3056_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.58,Sat May 16 14:45:45 2020
+3057,sub-3057_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.98,Sat May 16 14:50:11 2020
+3058,sub-3058_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.13,Sat May 16 15:00:45 2020
+3059,sub-3059_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.6,Sat May 16 15:02:48 2020
+3060,sub-3060_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.47,Sat May 16 14:57:14 2020
+3061,sub-3061_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.99,Sat May 16 14:52:35 2020
+3062,sub-3062_ses-01_desc-XcEd_dwi.nii.gz,tb571,284.35,Sat May 16 14:54:46 2020
+3063,sub-3063_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.05,Sat May 16 15:01:33 2020
+3064,sub-3064_ses-01_desc-XcEd_dwi.nii.gz,tb571,294.14,Sat May 16 15:10:41 2020
+3065,sub-3065_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.89,Sat May 16 15:14:30 2020
+3066,sub-3066_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.15,Sat May 16 15:13:09 2020
+5001,sub-5001_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.48,Sat May 16 15:17:11 2020
+5002,sub-5002_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.22,Sat May 16 15:16:11 2020
+5003,sub-5003_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.22,Sat May 16 15:17:32 2020
+5004,sub-5004_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.8,Sat May 16 15:19:14 2020
+5005,sub-5005_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.54,Sat May 16 15:18:32 2020
+5006,sub-5006_ses-01_desc-XcEd_dwi.nii.gz,tb571,267.06,Sat May 16 15:17:50 2020
+5007,sub-5007_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.68,Sat May 16 15:28:18 2020
+5008,sub-5008_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.32,Sat May 16 15:35:58 2020
+5009,sub-5009_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.87,Sat May 16 15:47:47 2020
+5010,sub-5010_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.77,Sat May 16 15:48:00 2020
+5011,sub-5011_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.05,Sat May 16 15:55:11 2020
+5012,sub-5012_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.69,Sat May 16 15:50:46 2020
+5013,sub-5013_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.17,Sat May 16 15:51:24 2020
+5014,sub-5014_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.69,Sat May 16 15:52:48 2020
+5015,sub-5015_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.23,Sat May 16 15:55:51 2020
+5016,sub-5016_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.7,Sat May 16 15:57:45 2020
+5017,sub-5017_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.44,Sat May 16 16:01:32 2020
+5019,sub-5019_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.87,Sat May 16 15:59:02 2020
+5020,sub-5020_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.91,Sat May 16 16:01:23 2020
+5021,sub-5021_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.23,Sat May 16 16:04:47 2020
+5022,sub-5022_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.99,Sat May 16 16:06:45 2020
+5023,sub-5023_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.35,Sat May 16 16:13:17 2020
+5024,sub-5024_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.07,Sat May 16 16:09:04 2020
+5025,sub-5025_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.64,Sat May 16 16:19:16 2020
+5027,sub-5027_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.88,Sat May 16 16:21:24 2020
 5028,sub-5028_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5029,sub-5029_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5030,sub-5030_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5031,sub-5031_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5032,sub-5032_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5033,sub-5033_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5034,sub-5034_ses-01_desc-XcEd_dwi.nii.gz,clk47,303.33,Mon Mar 23 15:11:27 2020
-5035,sub-5035_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5036,sub-5036_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5037,sub-5037_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5038,sub-5038_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5039,sub-5039_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5040,sub-5040_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5041,sub-5041_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5042,sub-5042_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5043,sub-5043_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5044,sub-5044_ses-01_desc-XcEd_dwi.nii.gz,clk47,305.18,Mon Mar 23 15:33:36 2020
-5045,sub-5045_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5046,sub-5046_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5047,sub-5047_ses-01_desc-XcEd_dwi.nii.gz,clk47,306.46,Mon Mar 23 16:05:29 2020
-5048,sub-5048_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5049,sub-5049_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5050,sub-5050_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+5029,sub-5029_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.51,Sat May 16 16:13:29 2020
+5030,sub-5030_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.78,Sat May 16 16:11:07 2020
+5031,sub-5031_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.64,Sat May 16 16:27:03 2020
+5032,sub-5032_ses-01_desc-XcEd_dwi.nii.gz,tb571,285.9,Sat May 16 16:15:39 2020
+5033,sub-5033_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.3,Sat May 16 16:18:59 2020
+5034,sub-5034_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.34,Sat May 16 16:20:24 2020
+5035,sub-5035_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.82,Sat May 16 16:18:40 2020
+5036,sub-5036_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.98,Sat May 16 16:20:18 2020
+5037,sub-5037_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.56,Sat May 16 16:22:10 2020
+5038,sub-5038_ses-01_desc-XcEd_dwi.nii.gz,ek520,292.83,Tue Jun 16 15:08:34 2020
+5040,sub-5040_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.19,Sat May 16 16:21:31 2020
+5041,sub-5041_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.55,Sat May 16 16:30:01 2020
+5042,sub-5042_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.03,Sat May 16 16:40:16 2020
+5043,sub-5043_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.13,Sat May 16 17:01:27 2020
+5044,sub-5044_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.06,Sat May 16 17:03:07 2020
+5045,sub-5045_ses-01_desc-XcEd_dwi.nii.gz,tb571,285.5,Sat May 16 17:03:13 2020
+5046,sub-5046_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.21,Sat May 16 17:08:49 2020
+5047,sub-5047_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.31,Sat May 16 17:05:17 2020
+5048,sub-5048_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.76,Sat May 16 17:05:36 2020
+5049,sub-5049_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.41,Sat May 16 17:07:31 2020
 5051,sub-5051_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5052,sub-5052_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5053,sub-5053_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5054,sub-5054_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5055,sub-5055_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5056,sub-5056_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5057,sub-5057_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-5058,sub-5058_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7001,sub-7001_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7002,sub-7002_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7003,sub-7003_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7004,sub-7004_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7005,sub-7005_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7006,sub-7006_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7007,sub-7007_ses-01_desc-XcEd_dwi.nii.gz,clk47,306.46,Mon Mar 23 16:30:51 2020
-7008,sub-7008_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7009,sub-7009_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7010,sub-7010_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7011,sub-7011_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7012,sub-7012_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7013,sub-7013_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7014,sub-7014_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7015,sub-7015_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7016,sub-7016_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7017,sub-7017_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7018,sub-7018_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7019,sub-7019_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7020,sub-7020_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7021,sub-7021_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7022,sub-7022_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7023,sub-7023_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7024,sub-7024_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7026,sub-7026_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7027,sub-7027_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7028,sub-7028_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7029,sub-7029_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7030,sub-7030_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7031,sub-7031_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7032,sub-7032_ses-01_desc-XcEd_dwi.nii.gz,clk47,304.91,Mon Mar 23 16:08:21 2020
-7033,sub-7033_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7034,sub-7034_ses-01_desc-XcEd_dwi.nii.gz,clk47,305.1,Mon Mar 23 15:27:10 2020
-7036,sub-7036_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7037,sub-7037_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7038,sub-7038_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7039,sub-7039_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7041,sub-7041_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7042,sub-7042_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7043,sub-7043_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7044,sub-7044_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7045,sub-7045_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7046,sub-7046_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7047,sub-7047_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7048,sub-7048_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7049,sub-7049_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
+5052,sub-5052_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.51,Sat May 16 17:15:01 2020
+5053,sub-5053_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.18,Sat May 16 17:16:27 2020
+5054,sub-5054_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.98,Sat May 16 17:18:27 2020
+5055,sub-5055_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.25,Sat May 16 17:20:21 2020
+5056,sub-5056_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.84,Sat May 16 17:23:13 2020
+5057,sub-5057_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.66,Sat May 16 17:26:03 2020
+5058,sub-5058_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.74,Sat May 16 17:24:01 2020
+7001,sub-7001_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.59,Sat May 16 17:34:27 2020
+7002,sub-7002_ses-01_desc-XcEd_dwi.nii.gz,tb571,313.73,Sat May 16 17:15:35 2020
+7003,sub-7003_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.59,Sat May 16 17:15:33 2020
+7004,sub-7004_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.38,Sat May 16 17:32:01 2020
+7005,sub-7005_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.5,Sat May 16 17:16:58 2020
+7006,sub-7006_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.58,Sat May 16 17:32:06 2020
+7007,sub-7007_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.28,Sat May 16 17:22:12 2020
+7008,sub-7008_ses-01_desc-XcEd_dwi.nii.gz,ek520,293.3,Wed Jun 17 13:51:02 2020
+7009,sub-7009_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.62,Sat May 16 17:20:08 2020
+7010,sub-7010_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.94,Sat May 16 17:23:15 2020
+7011,sub-7011_ses-01_desc-XcEd_dwi.nii.gz,tb571,286.6,Sat May 16 17:35:29 2020
+7012,sub-7012_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.85,Sat May 16 17:22:03 2020
+7013,sub-7013_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.36,Sat May 16 17:22:40 2020
+7014,sub-7014_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.43,Sat May 16 17:24:46 2020
+7015,sub-7015_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.81,Sat May 16 17:41:40 2020
+7016,sub-7016_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.36,Sat May 16 18:15:35 2020
+7017,sub-7017_ses-01_desc-XcEd_dwi.nii.gz,tb571,286.56,Sat May 16 17:35:02 2020
+7018,sub-7018_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.04,Sat May 16 17:48:20 2020
+7019,sub-7019_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.25,Sat May 16 18:06:38 2020
+7020,sub-7020_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.12,Sat May 16 18:19:06 2020
+7021,sub-7021_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.25,Sat May 16 18:15:26 2020
+7022,sub-7022_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.95,Sat May 16 18:17:42 2020
+7023,sub-7023_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.38,Sat May 16 18:21:15 2020
+7024,sub-7024_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.53,Sat May 16 18:17:01 2020
+7026,sub-7026_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.97,Sat May 16 18:19:27 2020
+7027,sub-7027_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.92,Sat May 16 18:17:18 2020
+7028,sub-7028_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.57,Sat May 16 18:21:57 2020
+7029,sub-7029_ses-01_desc-XcEd_dwi.nii.gz,tb571,286.33,Sat May 16 18:32:34 2020
+7030,sub-7030_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.14,Sat May 16 18:15:36 2020
+7031,sub-7031_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.19,Sat May 16 18:28:11 2020
+7032,sub-7032_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.64,Sat May 16 18:25:57 2020
+7033,sub-7033_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.59,Sat May 16 18:17:07 2020
+7034,sub-7034_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.0,Sat May 16 18:18:59 2020
+7036,sub-7036_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.34,Sat May 16 18:32:21 2020
+7037,sub-7037_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.27,Sat May 16 18:21:43 2020
+7038,sub-7038_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.68,Sat May 16 18:24:13 2020
+7039,sub-7039_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.47,Sat May 16 18:36:27 2020
+7041,sub-7041_ses-01_desc-XcEd_dwi.nii.gz,tb571,293.15,Sat May 23 00:19:41 2020
+7042,sub-7042_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.66,Sat May 16 18:22:21 2020
+7043,sub-7043_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.89,Sat May 23 00:22:19 2020
+7044,sub-7044_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.9,Sat May 16 18:25:23 2020
+7045,sub-7045_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.94,Sat May 16 18:26:14 2020
+7046,sub-7046_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.94,Sat May 16 18:32:59 2020
+7047,sub-7047_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.26,Sat May 23 00:17:40 2020
+7048,sub-7048_ses-01_desc-XcEd_dwi.nii.gz,tb571,291.8,Sat May 23 00:17:34 2020
+7049,sub-7049_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.47,Sat May 23 00:21:19 2020
 7050,sub-7050_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7051,sub-7051_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7052,sub-7052_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7053,sub-7053_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7054,sub-7054_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7055,sub-7055_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7056,sub-7056_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7057,sub-7057_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7058,sub-7058_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7059,sub-7059_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7060,sub-7060_ses-01_desc-XcEd_dwi.nii.gz,clk47,304.17,Mon Mar 23 16:06:32 2020
-7062,sub-7062_ses-01_desc-XcEd_dwi.nii.gz,clk47,307.16,Mon Mar 23 15:29:47 2020
-7063,sub-7063_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7064,sub-7064_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-7065,sub-7065_ses-01_desc-XcEd_dwi.nii.gz,-,-,-
-Total,,,5797.37,
+7051,sub-7051_ses-01_desc-XcEd_dwi.nii.gz,tb571,284.73,Sat May 23 00:18:17 2020
+7052,sub-7052_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.48,Sat May 23 00:20:14 2020
+7053,sub-7053_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.27,Sat May 23 00:21:07 2020
+7054,sub-7054_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.53,Sat May 23 00:19:45 2020
+7055,sub-7055_ses-01_desc-XcEd_dwi.nii.gz,tb571,287.16,Sat May 23 00:21:29 2020
+7057,sub-7057_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.79,Sat May 16 18:32:33 2020
+7058,sub-7058_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.99,Sat May 16 18:35:23 2020
+7059,sub-7059_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.99,Sat May 16 18:32:51 2020
+7060,sub-7060_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.12,Sat May 16 18:33:05 2020
+7062,sub-7062_ses-01_desc-XcEd_dwi.nii.gz,tb571,292.98,Sat May 16 18:39:40 2020
+7063,sub-7063_ses-01_desc-XcEd_dwi.nii.gz,tb571,289.02,Sat May 23 00:21:09 2020
+7064,sub-7064_ses-01_desc-XcEd_dwi.nii.gz,tb571,288.68,Sat May 23 00:23:04 2020
+7065,sub-7065_ses-01_desc-XcEd_dwi.nii.gz,tb571,290.5,Sat May 23 00:21:08 2020
+Total,,,66.39G,
