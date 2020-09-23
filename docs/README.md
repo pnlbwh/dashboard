@@ -108,3 +108,9 @@ do
 done
 ```
 
+The above loop can be replaced by a cron job. Save the content in `report.cron` and:
+
+> crontab -u pnl -e
+
+and write `*/15 * * * * /path/to/report.cron` to run the job every 15 minutes.
+
