@@ -11,6 +11,9 @@ from pwd import getpwuid
 from subprocess import Popen, check_call, check_output
 import numpy as np
 import argparse
+from subprocess import check_call
+import re
+
 
 SCRIPTDIR= dirname(abspath(__file__))
 
@@ -321,9 +324,7 @@ if __name__=='__main__':
     
     if isdir(outDir):
         rmtree(outDir)
-    oldmask= umask(0o000)
     makedirs(outDir, 0o755)
-    umask(oldmask)
     
     outputFile= pjoin(outDir,'dashboard.html')
     tocFile= pjoin(outDir,'toc.html')
@@ -344,7 +345,8 @@ if __name__=='__main__':
 <p><a href=https://github.com/pnlbwh/dashboard>https://github.com/pnlbwh/dashboard</a> is a lightweight dashboard for monitoring project progress</p>
 <p>Developed by Tashrif Billah and Sylvain Bouix, Brigham and Women's Hospital (Harvard Medical School)</p>
 <br>
-<p><b>* This report was generated on {ctime()}</p></br>
+_TIME_
+<br>
 <p><h{primary} <b>Table of Contents</b></h1></p>
 <p><ul>"""
     writePlainHtml(tocFile, text, 'w')
@@ -392,7 +394,12 @@ if __name__=='__main__':
     with open(statFile) as f:
         stat= f.read()
     with open(outputFile, 'w') as f:
+        toc= re.sub('_TIME_', f'<p><b>* This report was generated on {ctime()}</b></p>', toc)
         f.write(toc+stat)
         f.write('</font></html>')
     
-    
+
+    check_call(f'chmod -R 755 {outDir}', shell= True)
+
+
+
