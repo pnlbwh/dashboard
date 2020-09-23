@@ -208,7 +208,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     header= 'Raw data trees'
     writeTableOfContents(tocFile, header)
     ref= writeHeader(statFile, secondary, header)
-    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#{ref}">See trees</a></p>""")
+    writePlainHtml(statFile, f"""<p><a href="{basename(treeFile)}#{ref}">See trees</a></p>""")
     writeHeader(treeFile, secondary, header)
     givenDir= config['DIR']['givenDir']
     for id in cases:
@@ -222,7 +222,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     header= 'Derived data trees'
     writeTableOfContents(tocFile, header)
     ref= writeHeader(statFile, secondary, header)
-    writePlainHtml(statFile, f"""<p><a href="file:///{treeFile}#{ref}">See trees</a></p>""")
+    writePlainHtml(statFile, f"""<p><a href="{basename(treeFile)}#{ref}">See trees</a></p>""")
     writeHeader(treeFile, secondary, header)
     derivDir= config['DIR']['derivDir']
     for id in cases:
@@ -261,7 +261,7 @@ def writeCsvLink(html, csvFile, csvHtml, mode='a'):
 
     with open(html, mode) as f:
         message = f"""
-<a href="file:///{csvHtml}">{basename(csvFile)}</a>"""
+<a href="{basename(csvHtml)}">{basename(csvFile)}</a>"""
 
         f.write(message)
 
