@@ -4,7 +4,7 @@ import pandas as pd
 from conversion import read_cases
 from configparser import ConfigParser
 from os.path import isfile, isdir, islink, basename, join as pjoin, abspath, dirname
-from os import listdir, stat, getpid, getcwd, makedirs
+from os import listdir, stat, getpid, getcwd, makedirs, umask
 from shutil import rmtree
 from time import ctime
 from pwd import getpwuid
@@ -321,7 +321,9 @@ if __name__=='__main__':
     
     if isdir(outDir):
         rmtree(outDir)
-    makedirs(outDir)
+    oldmask= umask(0o000)
+    makedirs(outDir, 0o755)
+    umask(oldmask)
     
     outputFile= pjoin(outDir,'dashboard.html')
     tocFile= pjoin(outDir,'toc.html')
