@@ -347,7 +347,7 @@ if __name__=='__main__':
 <br>
 _TIME_
 <br>
-<p><h{primary}<b>Table of Contents</b></h{primary}></p>
+<p><h{primary}><b>Table of Contents</b></h{primary}></p>
 <p><ul>"""
     writePlainHtml(tocFile, text, 'w')
     
