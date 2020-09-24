@@ -198,7 +198,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         writeTableOfContents(tocFile, header, key)
         writeHeader(statFile, secondary, header, f'# Item: {key}')
         writeCsvLink(statFile, csvFile, csvHtml)
-    writePlainHtml(tocFile, '</p></ul>')
+    writePlainHtml(tocFile, '</ul></p>')
 
     
     header= 'Subject directory trees'
@@ -274,12 +274,12 @@ def writeHeader(html, serial, header, desc=None, mode='a'):
     if desc is None:
         desc= header
     
-    margin_bottom= """style="margin-bottom: -10px""" if serial >= secondary else ''
+    margin_bottom= """style=\"margin-bottom: -10px\"""" if serial >= secondary else ''
     
     with open(html, mode) as f:
         ref= ('-').join(header.split())
         message = f"""
-<h{serial} id={ref} {margin_bottom}"><b># {desc}</b></h{serial}>"""
+<h{serial} id="{ref}" {margin_bottom}><b># {desc}</b></h{serial}>"""
 
         f.write(message)
 
@@ -341,13 +341,13 @@ if __name__=='__main__':
 <title>dashboard</title>
 </head>
 <body>
-<p><img src="https://raw.githubusercontent.com/pnlbwh/dashboard/master/docs/pnl-bwh-hms.png" /></p>
+<img src="https://raw.githubusercontent.com/pnlbwh/dashboard/master/docs/pnl-bwh-hms.png" />
 <p><a href=https://github.com/pnlbwh/dashboard>https://github.com/pnlbwh/dashboard</a> is a lightweight dashboard for monitoring project progress</p>
 <p>Developed by Tashrif Billah and Sylvain Bouix, Brigham and Women's Hospital (Harvard Medical School)</p>
 <br>
 _TIME_
 <br>
-<p><h{primary} <b>Table of Contents</b></h1></p>
+<p><h{primary}<b>Table of Contents</b></h{primary}></p>
 <p><ul>"""
     writePlainHtml(tocFile, text, 'w')
     
@@ -386,7 +386,7 @@ _TIME_
     generateReport(dashConfigFile, tocFile, statFile, treeFile)
 
     
-    writePlainHtml(tocFile, '</p></ul>')
+    writePlainHtml(tocFile, '</ul></p>')
     writePlainHtml(treeFile, '</span></html>')
     
     with open(tocFile) as f:
