@@ -1,0 +1,40 @@
+body {
+    margin: 30px;
+}
+
+#dash-config {
+    font-family: Georgia;
+    color: blue;
+    border: red;
+    border-style: dotted;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#pipe-config {
+    font-family: Georgia;
+    color: blue;
+    border: red;
+    border-style: dotted;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+li:hover {
+    background-color: darkgrey;
+    color: red;
+}
+
+h2 {
+    background-color: yellow;
+}
+
+h3:hover {
+    background-color: darkgrey;
+    color: red;
+}
+

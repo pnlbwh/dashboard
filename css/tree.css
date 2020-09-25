@@ -1,0 +1,22 @@
+body {
+    margin: 30px;
+}
+p {
+    font-family: Georgia;
+    color: blue;
+    border: red;
+    border-style: dotted;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+summary:hover {
+    color: red;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: yellow;
+}
+
