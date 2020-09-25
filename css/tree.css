@@ -1,6 +1,3 @@
-body {
-    margin: 30px;
-}
 p {
     font-family: Georgia;
     color: blue;
@@ -19,4 +16,5 @@ summary:hover {
 h3 {
     background-color: yellow;
 }
+
 

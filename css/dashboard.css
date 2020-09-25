@@ -1,15 +1,10 @@
-body {
-    margin: 30px;
-}
-
 #dash-config {
     font-family: Georgia;
     color: blue;
     border: red;
     border-style: dotted;
     width: fit-content;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px;
 }
 
 #pipe-config {
@@ -18,8 +13,7 @@ body {
     border: red;
     border-style: dotted;
     width: fit-content;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px;
 }
 
 
@@ -37,4 +31,5 @@ h3:hover {
     background-color: darkgrey;
     color: red;
 }
+
 
