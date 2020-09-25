@@ -163,7 +163,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
     header= 'Details of given data'
     writeTableOfContents(tocFile, header)
     writeHeader(statFile, primary, header)
-    writePlainHtml(tocFile, '<p><ul>')
+    writePlainHtml(tocFile, '<ul>')
     for key, item in config['RAW'].items():
         df = getDetails(cases, item)
         header= f'given-{key}-details'
@@ -177,14 +177,14 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         writeTableOfContents(tocFile, header, key)
         writeHeader(statFile, secondary, header, f'# Item: {key}')
         writeCsvLink(statFile, csvFile, csvHtml)
-    writePlainHtml(tocFile, '</p></ul>')
+    writePlainHtml(tocFile, '</ul>')
     
     
     # derivatives
     header= 'Details of derivatives'
     writeTableOfContents(tocFile, header)
     writeHeader(statFile, primary, header)
-    writePlainHtml(tocFile, '<p><ul>')
+    writePlainHtml(tocFile, '<ul>')
     for key, item in config['DERIVATIVES'].items():
         df = getDetails(cases, item)
         header= f'derived-{key}-details'
@@ -198,14 +198,14 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         writeTableOfContents(tocFile, header, key)
         writeHeader(statFile, secondary, header, f'# Item: {key}')
         writeCsvLink(statFile, csvFile, csvHtml)
-    writePlainHtml(tocFile, '</ul></p>')
+    writePlainHtml(tocFile, '</ul>')
 
     
     header= 'Subject directory trees'
     writeTableOfContents(tocFile, header)
     writeHeader(statFile, primary, header)
     depth= config['TREE']['level']
-    writePlainHtml(tocFile, '<p><ul>')
+    writePlainHtml(tocFile, '<ul>')
     
     # given
     header= 'Raw data trees'
@@ -233,7 +233,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         tree= check_output(f'tree {subDir} -L {depth}', shell=True)
         
         writePopDown(treeFile, id, tree.decode('UTF-8'))
-    writePlainHtml(tocFile, '</p></ul>')
+    writePlainHtml(tocFile, '</ul>')
 
         
 def modify_df_title(csvHtml, header):
@@ -337,6 +337,7 @@ if __name__=='__main__':
 <html>
 <head>
 <meta charset="utf-8" />
+<link rel="stylesheet" href="css/dashboard.css">
 <font size="+1">
 <title>dashboard</title>
 </head>
@@ -364,6 +365,7 @@ _TIME_
 <html>
 <title>Directory trees</title>
 <meta charset="utf-8" />
+<link rel="stylesheet" href="css/tree.css">
 <span style="white-space: pre-wrap">"""
     writePlainHtml(treeFile, text, 'w')
     
@@ -372,7 +374,7 @@ _TIME_
     writeTableOfContents(tocFile, header)
     with open(dashConfigFile) as f:
         writeHeader(statFile, primary, header)
-        writePlainHtml(statFile, f'<p>{f.read()}</p>')
+        writePlainHtml(statFile, f"""<p id="dash-config">{f.read()}</p>""")
     
     
     if pipeConfigFile:
@@ -386,7 +388,7 @@ _TIME_
     generateReport(dashConfigFile, tocFile, statFile, treeFile)
 
     
-    writePlainHtml(tocFile, '</ul></p>')
+    writePlainHtml(tocFile, '</ul>')
     writePlainHtml(treeFile, '</span></html>')
     
     with open(tocFile) as f:
@@ -396,9 +398,9 @@ _TIME_
     with open(outputFile, 'w') as f:
         toc= re.sub('_TIME_', f'<p><b>* This report was generated on {ctime()}</b></p>', toc)
         f.write(toc+stat)
-        f.write('</font></html>')
+        f.write('</span></body></font></html>')
     
-
+    check_call(f'cp -a {SCRIPTDIR}/../css {outDir}', shell=True)
     check_call(f'chmod -R 755 {outDir}', shell= True)
 
 
