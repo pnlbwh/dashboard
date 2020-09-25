@@ -175,7 +175,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         
         modify_df_title(csvHtml, header)
         writeTableOfContents(tocFile, header, key)
-        writeHeader(statFile, secondary, header, f'# Item: {key}')
+        writeHeader(statFile, secondary, header, f'Item: {key}')
         writeCsvLink(statFile, csvFile, csvHtml)
     writePlainHtml(tocFile, '</ul>')
     
@@ -196,7 +196,7 @@ def generateReport(configFile, tocFile, statFile, treeFile):
         
         modify_df_title(csvHtml, header)
         writeTableOfContents(tocFile, header, key)
-        writeHeader(statFile, secondary, header, f'# Item: {key}')
+        writeHeader(statFile, secondary, header, f'Item: {key}')
         writeCsvLink(statFile, csvFile, csvHtml)
     writePlainHtml(tocFile, '</ul>')
 
@@ -245,7 +245,7 @@ def modify_df_title(csvHtml, header):
 def writePopDown(html, caseid, text, mode='a'):
 
     with open(html, mode) as f:
-        message = f"""<br><br><details><summary>{caseid}</summary>
+        message = f"""<details><summary>{caseid}</summary>
 <p>
 {text}
 </p>
@@ -273,13 +273,11 @@ def writeHeader(html, serial, header, desc=None, mode='a'):
     
     if desc is None:
         desc= header
-    
-    margin_bottom= """style=\"margin-bottom: -10px\"""" if serial >= secondary else ''
-    
+        
     with open(html, mode) as f:
         ref= ('-').join(header.split())
         message = f"""
-<h{serial} id="{ref}" {margin_bottom}><b># {desc}</b></h{serial}>"""
+<h{serial} id="{ref}">{desc}</h{serial}>"""
 
         f.write(message)
 
@@ -294,7 +292,7 @@ def writeTableOfContents(html, header, desc=None, mode='a'):
     with open(html, mode) as f:
         ref= ('-').join(header.split())
         message = f"""
-<li><a href=#{ref}><b>{desc}</b></a></li>"""
+<li><a href=#{ref}>{desc}</a></li>"""
 
         f.write(message)
 
@@ -337,9 +335,10 @@ if __name__=='__main__':
 <html>
 <head>
 <meta charset="utf-8" />
+<link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/dashboard.css">
-<font size="+1">
-<title>dashboard</title>
+<font size="+1"></font>
+<title>Project overview</title>
 </head>
 <body>
 <img src="https://raw.githubusercontent.com/pnlbwh/dashboard/master/docs/pnl-bwh-hms.png" />
@@ -348,25 +347,27 @@ if __name__=='__main__':
 <br>
 _TIME_
 <br>
-<p><h{primary}><b>Table of Contents</b></h{primary}></p>
+<h{primary}>Table of Contents</h{primary}>
 <p><ul>"""
     writePlainHtml(tocFile, text, 'w')
     
     
     # initialize statFile
-    text="""
-<meta charset="utf-8" />
-<span style="white-space: pre-wrap">"""
+    text=''
     writePlainHtml(statFile, text, 'w')
     
     
     # initialize treeFile
     text="""<!DOCTYPE html>
 <html>
+<head>
 <title>Directory trees</title>
 <meta charset="utf-8" />
+<link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/tree.css">
-<span style="white-space: pre-wrap">"""
+</head>
+<body>
+<span>"""
     writePlainHtml(treeFile, text, 'w')
     
         
@@ -374,7 +375,11 @@ _TIME_
     writeTableOfContents(tocFile, header)
     with open(dashConfigFile) as f:
         writeHeader(statFile, primary, header)
-        writePlainHtml(statFile, f"""<p id="dash-config">{f.read()}</p>""")
+        writePlainHtml(statFile, f"""
+<span>
+    <p id="dash-config">{f.read()}</p>
+</span>
+""")
     
     
     if pipeConfigFile:
@@ -382,14 +387,19 @@ _TIME_
         writeTableOfContents(tocFile, header)
         with open(pipeConfigFile) as f:
             writeHeader(statFile, primary, header)
-            writePlainHtml(statFile, f'<p>{f.read()}</p>')
+            writePlainHtml(statFile, f"""
+<span>
+    <p>{f.read()}</p>
+</span>
+""")
     
     
     generateReport(dashConfigFile, tocFile, statFile, treeFile)
 
     
     writePlainHtml(tocFile, '</ul>')
-    writePlainHtml(treeFile, '</span></html>')
+    writePlainHtml(treeFile, """
+</span></body></html>""")
     
     with open(tocFile) as f:
         toc= f.read()    
@@ -398,7 +408,7 @@ _TIME_
     with open(outputFile, 'w') as f:
         toc= re.sub('_TIME_', f'<p><b>* This report was generated on {ctime()}</b></p>', toc)
         f.write(toc+stat)
-        f.write('</span></body></font></html>')
+        f.write('</body></html>')
     
     check_call(f'cp -a {SCRIPTDIR}/../css {outDir}', shell=True)
     check_call(f'chmod -R 755 {outDir}', shell= True)
