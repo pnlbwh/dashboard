@@ -4,7 +4,7 @@ https://github.com/pnlbwh/dashboard is a lightweight dashboard for monitoring pr
 
 Developed by Tashrif Billah and Sylvain Bouix, Brigham and Women's Hospital (Harvard Medical School)
 
-See example dashboard at https://pnlbwh.github.io/dashboard/report/dashboard.html
+See example dashboard at https://pnlservers.bwh.harvard.edu/cte/dashboard.html
 
 Table of Contents
 =================
