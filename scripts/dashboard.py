@@ -106,7 +106,8 @@ def getSummary(section, cases):
             if isfile(target) or (isdir(target) and listdir(target)):
                 count += 1
         
-        size= check_output('du -bcsL {} | grep total'.format(item.replace('$','*')), shell= True).decode('UTF-8').split()[0]
+        # -L flag could be used to follow symlinks
+        size= check_output('du -bcs {} | grep total'.format(item.replace('$','*')), shell= True).decode('UTF-8').split()[0]
         size= human_size(size)
         summary.loc[row]= [key, count, size]
         
