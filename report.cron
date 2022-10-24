@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# cron job at every midnight
+# 0 0 * * * /data/pnl/U01_HCP_Psychosis/data_processing/BIDS/report.cron
+
+export NEW_SOFT_DIR=/data/pnl/soft/pnlpipe3
+export PATH=${NEW_SOFT_DIR}/miniconda3/envs/pnlpipe3/bin/:$PATH
+
+# library path for R
+unset R_HOME
+export R_LIBS_USER=${NEW_SOFT_DIR}/R/x86_64-pc-linux-gnu-library/3.5.1
+PROJ=/data/pnl/U01_HCP_Psychosis/data_processing/BIDS
+
+# create caselist
+cd $PROJ/rawdata
+# for i in `ls -d sub-????`; do echo ${i#sub-}; done > report_caselist.txt
+
+# generate report
+rm -rf $PROJ/dashboard/
+${NEW_SOFT_DIR}/dashboard/scripts/dashboard.py --dash-config $PROJ/dash_config.ini $PROJ/dashboard/
+
+# transfer report to pnlservers
+rsync -av $PROJ/dashboard/ pnl_servers.dipr.partners.org:/var/www/html/hcp
+# scp -r $PROJ/dashboard/* pnl_servers.dipr.partners.org:/var/www/html/hcp/
+
