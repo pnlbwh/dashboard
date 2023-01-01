@@ -66,19 +66,23 @@ def getDetails(cases, item):
     for id in cases:
         target = item.replace('$', id)
 
-        if isfile(target):
-            stat_obj = stat(target)
-            details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
-                                np.round(stat_obj.st_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
+        try:
+            if isfile(target):
+                stat_obj = stat(target)
+                details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
+                                    np.round(stat_obj.st_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
 
-        elif isdir(target) and listdir(target):
-            stat_obj = stat(target)
-            total_size = getFolderSize(target)
-            details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
-                                np.round(total_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
+            elif isdir(target) and listdir(target):
+                stat_obj = stat(target)
+                total_size = getFolderSize(target)
+                details.loc[row] = [id, basename(target), getpwuid(stat_obj.st_uid).pw_name,
+                                    np.round(total_size / MB, decimals=2), ctime(stat_obj.st_mtime)]
 
-        else:
-            details.loc[row] = [id, basename(target), '-', '-', '-']
+            else:
+                details.loc[row] = [id, basename(target), '-', '-', '-']
+
+        except KeyError:
+            pass
 
         row += 1
     
